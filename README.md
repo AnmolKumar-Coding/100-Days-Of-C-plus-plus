@@ -10,3 +10,7 @@ Tracking my daily coding consistency, online lecture progress, and algorithmic p
 * learned the componenets of flowchart such as terminator, paralellogram, Process, Decision Making(Decision Making), Circle and Arrows.
 * Make some flowchart examples like adding 2 numbers, N is even or odd, is this a triangle, is n is +ve -ve or zero, make n gor to 1 to 5.
 * What is a programming language.
+
+### Day 3: Written the First Code.
+* Learned the syntax 'int main()', '#include <iostream>', 'cout', 'endl', '/n'
+* written the first code 'hello world'
