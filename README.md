@@ -40,7 +40,10 @@ Tracking my daily coding consistency, lecture progress, and problem-solving jour
 + using namespace std;
 + int main()
 + cout
++ <<
 + endl
++ ;
+
 ```
 
 #### 🎯 Achievement
@@ -53,4 +56,6 @@ Tracking my daily coding consistency, lecture progress, and problem-solving jour
 - `using namespace std;` allows access to standard library objects without the `std::` prefix.
 - `int main()` is the entry point of a C++ program.
 - `cout` is used to display output on the console.
+- `<<` (stream insertion operator) sends data to `cout` for display.
 - `endl` inserts a new line and flushes the output buffer.
+- `;` (semicolon) marks the end of a statement in C++.
