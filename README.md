@@ -41,7 +41,6 @@ Tracking my daily coding consistency, lecture progress, and problem-solving jour
 + int main()
 + cout
 + endl
-+ return 0
 ```
 
 #### 🎯 Achievement
