@@ -59,3 +59,34 @@ Tracking my daily coding consistency, lecture progress, and problem-solving jour
 - `<<` (stream insertion operator) sends data to `cout` for display.
 - `endl` inserts a new line and flushes the output buffer.
 - `;` (semicolon) marks the end of a statement in C++.
+
+---
+
+### Day 4 — Variables, Data Types & Operators
+
+#### 📖 Topics Learned
+
+- Primitive Data Types (`int`, `char`, `float`, `double`, `bool`)
+- Variables & Memory Allocation (Sizeof operator)
+- Type Casting (Implicit)
+- Operators (Arithmetic, Relational, Logical)
+
+#### 🎯 Achievement
+
+- Learned how different primitive data types occupy memory, how the system implicitly casts data types, how negative numbers are represented via Two's Complement, and how to utilize arithmetic, relational, and logical operators.
+
+#### 💡 Key Concepts
+
+- **Variables & Storage:** A variable is a named storage location in memory. Different data types occupy different amounts of space (e.g., `int` typically takes 4 bytes, `char` takes 1 byte).
+- **Negative Number Storage (Two's Complement):** Computers store negative numbers (like -3) using a 3-step process because they cannot store a minus sign directly:
+  - Find the positive binary representation of the number (e.g., 3 is 00000011).
+  - Flip all the bits (One's Complement: 00000011 --> 11111100).
+  - Add 1 to the result (Two's Complement: 11111100 + 1 = 11111101).
+  - The leftmost bit acts as the Sign Bit (0 for positive, 1 for negative).
+- **Type Casting:** Converting data from one type to another. 
+  - *Implicit:* Done automatically by the compiler (e.g., assigning a `char` to an `int` stores its ASCII value).
+- **Operators:** - *Arithmetic:* `+`, `-`, `*`, `/`, `%` (Modulo gives the remainder).
+  - *Relational:* `==`, `!=`, `>`, `<`, `>=`, `<=`, `!=` (Returns `true` or `false`)(in output true = 1 & false = 0).
+  - *Logical:* `&&` (AND), `||` (OR), `!` (NOT) used to combine multiple conditions.
+
+---
