@@ -90,3 +90,28 @@ Tracking my daily coding consistency, lecture progress, and problem-solving jour
   - *Logical:* `&&` (AND), `||` (OR), `!` (NOT) used to combine multiple conditions.
 
 ---
+
+### Day 5 — Conditionals, User Input & Basic Loops
+
+#### 📖 Topics Learned
+
+```diff
++ cin
++ >>
++ if
++ else if
++ else
++ while
+```
+
+#### 🎯 Achievement
+
+- Built interactive programs that read user inputs, make logical choices across multiple paths, and repeat execution steps safely using while loops.
+
+#### 💡 Key Concepts
+
+- **Reading Inputs (`cin`):** Used `cin` and the `>>` operator to read data from the keyboard and save it inside variables at runtime.
+- **Decision Trees:** Controlled program flow using `if` and `else if` for checking sequential conditions, with a final fallback `else` block.
+- **Looping (`while`):** Learned how to safely repeat code blocks by managing the three loop pillars: initialization, the exit condition, and updating the counter.
+- **Character Filtering:** Used logic checks to automatically classify an input character as uppercase, lowercase, or a number.
+- **Divisibility Tests:** Combined the modulo operator (`%`) with loops to build simple logic checkers, like verifying if a number is prime.
