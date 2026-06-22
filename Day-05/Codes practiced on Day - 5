@@ -180,5 +180,8 @@ int main(){
         S = S + 2;
     }
 
-
 }
+
+// Some Codes are in rough page in my copy as i have to analyse it and make sure they run.
+
+
