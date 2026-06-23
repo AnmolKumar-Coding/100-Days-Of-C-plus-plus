@@ -115,3 +115,14 @@ Tracking my daily coding consistency, lecture progress, and problem-solving jour
 - **Looping (`while`):** Learned how to safely repeat code blocks by managing the three loop pillars: initialization, the exit condition, and updating the counter.
 - **Character Filtering:** Used logic checks to automatically classify an input character as uppercase, lowercase, or a number.
 - **Divisibility Tests:** Combined the modulo operator (`%`) with loops to build simple logic checkers, like verifying if a number is prime.
+
+---
+
+### Day 6 - Practise codes for loops
+
+#### 🎯 Achievement
+
+- Print all Odd numbers Between 1 and N "N included"
+- Find sum from 1 to N?
+- find n! ?
+- find all 1 to n is a prime numbers.( in this while and if is used both)
