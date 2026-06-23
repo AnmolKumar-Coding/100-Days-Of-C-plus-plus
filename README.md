@@ -135,6 +135,6 @@ Tracking my daily coding consistency, lecture progress, and problem-solving jour
 - Understanding how nested loops control rows and columns is starting to get much clearer!
 
 #### Patterns Solved.
-- Given an integer N, print a solid square pattern of N rows and N columns using stars (*).
-- Given an integer N, print a square pattern of N rows and N columns where every element in the i-th row is equal to the row index i.
+- Given an integer n, print a solid square pattern of n rows and n columns using stars (*).
+- Given an integer a, print a square pattern of a rows and a columns where every element in the b-th row is equal to the row index i.
 - and some experiments which can be seen in day 7 code.
