@@ -159,8 +159,6 @@ int main(){
 
 }
 
-*/
-
 // Print even numbers between 1 to N
 
 int main(){
