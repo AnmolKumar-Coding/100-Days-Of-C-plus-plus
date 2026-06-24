@@ -26,48 +26,48 @@ int main(){
     int size = sizeof(a);
     cout << "size : " << size << endl;
 
-    int a = 65;
-    cout << a << endl;
+    int x = 65;
+    cout << x << endl;
   
-    char a = 97;
-    cout   <<  a << endl;
+    char y = 97;
+    cout   <<  y << endl;
 
-    char b = 123456;
-    cout <<  b << endl;
-
-  
-    int a = -5;
-    cout << a << endl;
+    char z = 123456;
+    cout <<  z << endl;
 
   
-    unsigned int a = -112;
-    cout << a << endl;
+    int i = -5;
+    cout << i << endl;
 
   
-    double a = 2.0/5;
-    cout << a << endl;
+    unsigned int k = -112;
+    cout << k << endl;
+
+  
+    double l = 2.0/5;
+    cout << l << endl;
 
     cout << 8.737/2.738 << endl;
 
   
-    int a = 5;
-    int b = 6;
+    int m = 5;
+    int n = 6;
 
-    bool c = a==b;
-    cout << c << endl;
+    bool o = m==n;
+    cout << o << endl;
     
-    bool d = a<b;
-    cout << d << endl;
+    bool p = m<n;
+    cout << p << endl;
     
-    bool e = a>b;
-    cout << e << endl;
+    bool q = m>n;
+    cout << q << endl;
     
-    bool f = a<=b;
-    cout << f << endl;
+    bool s = m<=n;
+    cout << s << endl;
     
-    bool g = a>=b;
-    cout << g << endl;
+    bool t = m>=n;
+    cout << t << endl;
     
-    bool h = a!=b;
-    cout << h << endl;
+    bool u = m!=n;
+    cout << u << endl;
 }
