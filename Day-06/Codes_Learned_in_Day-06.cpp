@@ -5,6 +5,7 @@ using namespace std;
 
 // Print all Odd numbers Between 1 and N "N included".
 
+
 int main(){
 
     int N;
@@ -43,7 +44,7 @@ int main(){
         num = num + 1;
 
     } 
-    cout << " the num of 1 to " << N1 << endl;
+    cout << " the sum of 1 to " << N1 << endl;
     cout << sum << endl;
 
 
@@ -71,12 +72,12 @@ int main(){
 
 
 
-// find all 1 to n is a prime numbers.
+// find all 1 to n1 is a prime numbers.
     
     int n1;
     int s = 2;
 
-    cout << "enter the value of n :-" << endl;
+    cout << "enter the value of n1 :-" << endl;
     cin >> n1;
 
     cout << "the prime numbers between 0 and " << n1 << " is :-" <<endl;
@@ -97,6 +98,76 @@ int main(){
         }
         s = s + 1; 
         
+    }
+
+
+//find if it is lowercase or uppercase or numerical( only from 0 to 9)
+
+    int N2;
+
+    cout << "Enter the value of N2" << endl;
+    cin >> N2;
+
+    if( (N2 >= 'a') && (N2 <= 'z')){
+        cout << N2 << " is lowercase" << endl;
+
+    } 
+    else if((N2 >= 'A') && (N2 <= 'Z')){
+        cout << N2 << " is uppercase" << endl;
+
+    }
+    else if ((N2 >= 0) && (N2 <= 9)){
+        cout << N2 << " is numerical" << endl;
+    }
+    
+
+// find the sum of all even numbers from 1 to n3
+
+    int n3;
+    int i4 = 1;
+    int sum3 = 0;
+
+    cout << "enter the value of n3 :-" << endl;
+    cin >> n3;
+
+    while( i4 <= n3){
+
+        if(i4%2==0){
+            sum3 = sum3 + i4;
+        }
+        i4 = i4 + 1;
+    }
+    cout <<"sum of all even numbers between 1 to " << n3 << "is :- " << sum3 << endl;
+
+    
+// Fahrenhite to celcius.
+
+    float fahrenhite;
+
+    cout << "enter the value of fahrenhite" << endl;
+    cin >> fahrenhite;
+
+    float celcius = 5.0/9.0 * ( fahrenhite - 32);
+
+    cout << fahrenhite << " degree fahrenhite " << " = " << celcius << " degree celcius" << endl;
+
+
+// is P4 prime or not?
+
+    int p4;
+
+    cout << "enter the value of p4 " << endl;
+    cin >> p4;
+
+    if((p4 == 2) || (p4 == 3) || (p4 == 5)){
+        cout << "prime " << endl;
+
+    }
+    else if ((p4%2== 0) && (p4%3 == 0) && (p4%5 == 0)){
+        cout << "not prime" << endl;
+    }
+    else{
+        cout << "prime" << endl;
     }
 }
 
