@@ -138,3 +138,50 @@ Tracking my daily coding consistency, lecture progress, and problem-solving jour
 - Given an integer n, print a solid square pattern of n rows and n columns using stars (*).
 - Given an integer a, print a square pattern of a rows and a columns where every element in the b-th row is equal to the row index i.
 - and some experiments which can be seen in day 7 code.
+
+---
+
+### Day 8 — Advanced Nested Loops & Numerical Patterns
+
+#### 📖 Topics Learned
+
+```diff
++ while (i <= n) { while (j <= n) } // Nested Loop Structure
++ s = n - j + 1                     // Reverse Column Mapping
++ s = n * n                         // Global Continuous Tracking
++ s = i + j - 1                     // Row-Relative Offsets
+```
+
+#### 🎯 Achievement
+
+- Mastered grid geometry and multi-variable state tracking by implementing 10 distinct mathematical layout structures using nested `while` loops.
+
+#### 💡 Key Concepts
+
+- **Grid Coordinate Systems:** Learned that the outer loop strictly governs the row axis (`i`) while the inner loop dictates the column axis (`j`).
+- **Continuous Global Counting:** Implemented matrix sequences (increasing from 1 → N² or descending from N² → 1) by initializing tracking variables outside the loop scope rather than resetting them per row.
+- **Triangular Boundary Manipulation:** Discovered how to dynamically shrink column limits by tying the inner loop termination condition directly to the current outer loop index (`j <= i`).
+- **Offset Math:** Designed row-relative layouts where element printing values shift fluidly using mathematical expressions like `i + j - 1`.
+
+---
+
+### Day 9 — Character Matrices & Right-Aligned Padded Layouts
+
+#### 📖 Topics Learned
+
+```diff
++ (char)('A' + i - 1)               // Explicit ASCII Type Casting
++ space = 1; while (space <= n - i) // Leading Space Padding Blocks
++ j <= n - i + 1                    // Inverted Matrix Bounds
+```
+
+#### 🎯 Achievement
+
+- Extended nested loop logic to execute alphanumeric conversions via ASCII manipulation and successfully built right-aligned, complex inversions using multi-stage blank space padding.
+
+#### 💡 Key Concepts
+
+- **ASCII Character Arithmetic:** Leveraged type casting (`(char)`) to dynamically map numerical loop counters onto alphabetical characters starting from the base memory address of `'A'`.
+- **Multi-Stage Inner Loops:** Solved right-aligned and inverted shapes by running two separate sequential inner loops inside a single outer loop layer—one to print leading spaces and one to print data.
+- **Space-to-Data Inversion:** Mastered the boundary formula `n - i` to systematically decrease whitespace padding as rows descend, paving the exact structural path for right-aligned alignments.
+- **Dynamic Character Offsets:** Engineered advanced alphabet blocks (like Reverse Starting Triangles) where starting points change fluidly per row based on global inputs (`'A' + n + j - i - 1`).
