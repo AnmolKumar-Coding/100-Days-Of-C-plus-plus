@@ -5,7 +5,6 @@ int main(){
 
 //Question 1: Full Number Pyramid / Palindrome (Print a centered pyramid counting up to the row number, then counting back down.)
 
-/*
     int n1 ;
 
     cout << "Enter the value of n1 :- " << endl;
@@ -39,7 +38,6 @@ int main(){
         i1 = i1 + 1;
     }
 
-*/
 
 //Question 2: The "Dabangg" Pattern (Ultimate Challenge) (Assemble an increasing left numerical block, a central inverted star wedge, and a decreasing right numerical block.)
 
