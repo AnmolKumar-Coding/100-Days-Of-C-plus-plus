@@ -185,3 +185,30 @@ Tracking my daily coding consistency, lecture progress, and problem-solving jour
 - **Multi-Stage Inner Loops:** Solved right-aligned and inverted shapes by running two separate sequential inner loops inside a single outer loop layer—one to print leading spaces and one to print data.
 - **Space-to-Data Inversion:** Mastered the boundary formula `n - i` to systematically decrease whitespace padding as rows descend, paving the exact structural path for right-aligned alignments.
 - **Dynamic Character Offsets:** Engineered advanced alphabet blocks (like Reverse Starting Triangles) where starting points change fluidly per row based on global inputs (`'A' + n + j - i - 1`).
+
+---
+
+### Day 10 — Advanced Pyramids & The Dabangg Pattern Challenge
+
+#### 📖 Topics Learned
+
+```diff
++ while(s1 <= n1 - i1)            // Space Padding for Centered Pyramids
++ while(a1 < i1)                  // Post-Peak Palindromic Countdown
++ while(j2 <= n2 - i2 + 1)        // Multi-Stage Sub-Grids (Dabangg Layout)
++ cout << n2 - u2 - i2 + 2        // Complex Reverse Variable Mapping
+```
+
+#### 🎯 Achievement
+
+- Mastered hyper-complex structural logic by engineering multi-stage inner loop sequences, successfully building symmetrical numerical palindromes and completing the legendary "Dabangg" structural pattern challenge.
+
+#### 💡 Key Concepts
+
+- **Palindromic Loop Sequencing:** Learned how to create a centered numerical pyramid by dividing the row into three distinct mechanical steps: padding leading spaces, counting upwards to the peak value (`j1`), and executing a secondary countdown loop (`a1`) to restore symmetry.
+- **The "Dabangg" Pattern Blueprint:** Cracked the ultimate layout challenge by coordinating four separate inner loops sequentially within a single outer loop:
+  1. An inverted, left-aligned increasing number block.
+  2. A growing left-side star wedge.
+  3. A matching growing right-side star wedge.
+  4. An inverted, right-aligned decreasing number block.
+- **Complex Coordinate Math:** Engineered advanced algebraic print statements like `n2 - u2 - i2 + 2` to mirror numbers backwards on the trailing block while continuously respecting both the current row index and user input restrictions.
