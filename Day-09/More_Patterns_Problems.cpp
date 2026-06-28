@@ -1,9 +1,11 @@
-//🔠 Phase 3: Character Grids (Shown as Alphabets)
+
 
 #include <iostream>
 using namespace std;
 
 int main(){
+
+//🔠 Phase 1: Character Grids (Shown as Alphabets)
 
 //Question 1: Constant Row Characters (Fill an n × n grid where each row prints a single character sequentially ('A', 'B', etc.).)
 
@@ -119,7 +121,7 @@ int main(){
 
     int n5;
 
-    cout << "Enter the value of i5" << endl;
+    cout << "Enter the value of n5" << endl;
     cin >> n5;
 
     cout << "The pattern is :-" << endl;
@@ -227,7 +229,7 @@ int main(){
     }
 
 
-//🔄 Phase 4: Spaces, Inversions, and Alignments
+//🔄 Phase 2: Spaces, Inversions, and Alignments
 
 //Question 9: Right-Aligned Star TrianglePrint a right-angled triangle aligned to the right margin using leading spaces.
 
@@ -301,7 +303,7 @@ int main(){
         int j11 = 1;
         int s11 = 1;
 
-        while(s11 <= n11 + i11 - 5){
+        while(s11 <= i11- 1){
             cout << " " << " ";
             s11 = s11 + 1;
 
@@ -359,6 +361,8 @@ int main(){
 
     cout << "Enter the value of n13" << endl;
     cin >> n13;
+
+    cout << "The pattern is :- " << endl;
 
     int i13 = 1;
     int a13 = 1;
