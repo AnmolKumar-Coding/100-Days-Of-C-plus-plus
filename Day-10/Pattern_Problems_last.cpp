@@ -41,7 +41,7 @@ int main(){
 
 */
 
-//Question 25: The "Dabangg" Pattern (Ultimate Challenge) (Assemble an increasing left numerical block, a central inverted star wedge, and a decreasing right numerical block.)
+//Question 2: The "Dabangg" Pattern (Ultimate Challenge) (Assemble an increasing left numerical block, a central inverted star wedge, and a decreasing right numerical block.)
 
     int n2;
 
