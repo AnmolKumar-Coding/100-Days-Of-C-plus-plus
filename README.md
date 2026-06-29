@@ -212,3 +212,24 @@ Tracking my daily coding consistency, lecture progress, and problem-solving jour
   3. A matching growing right-side star wedge.
   4. An inverted, right-aligned decreasing number block.
 - **Complex Coordinate Math:** Engineered advanced algebraic print statements like `n2 - u2 - i2 + 2` to mirror numbers backwards on the trailing block while continuously respecting both the current row index and user input restrictions.
+
+---
+
+### Day 11 — Bitwise Operations & Evaluation Scopes
+
+#### 📖 Topics Learned
+
+```diff
++ a & b; a | b; a ^ b; ~a;      // Binary Gate Operations
++ num << 1; num >> 1;           // Bitwise Left and Right Shifts
++ ++i; i++; --i; i--;           // Pre/Post Increments & Decrements
+```
+
+#### 🎯 Achievement
+- Mastered low-level binary gate logic execution and optimized execution throughput using hardware-level bit shifts.
+- Engineered evaluation isolation filters to trace sequence logic and prevent boundary overflow errors in variable scopes.
+
+#### 💡 Key Concepts
+- **Gate Computations:** Implemented bitwise mappings (`&`, `|`, `^`, `~`) to execute logic directly on raw memory bit buffers.
+- **Bit Shift Optimization:** Leveraged left and right bit shifts (`<<`, `>>`) to calculate fast powers-of-two multiplications and divisions at the hardware layer.
+- **Side-Effect Sequencing:** Isolated evaluation ordering rules between pre-increment and post-increment expressions to control complex evaluation states.git rm --cached walpaaper
