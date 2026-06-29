@@ -215,21 +215,21 @@ Tracking my daily coding consistency, lecture progress, and problem-solving jour
 
 ---
 
-### Day 11 — Bitwise Operations & Evaluation Scopes
+### Day 11 — Bitwise Operations & Operator Behavior
 
 #### 📖 Topics Learned
 
 ```diff
-+ a & b; a | b; a ^ b; ~a;      // Binary Gate Operations
-+ num << 1; num >> 1;           // Bitwise Left and Right Shifts
++ a & b; a | b; a ^ b; ~a;      // Bitwise Logic (AND, OR, XOR, NOT)
++ num << 1; num >> 1;           // Left Shift and Right Shift
 + ++i; i++; --i; i--;           // Pre/Post Increments & Decrements
 ```
 
 #### 🎯 Achievement
-- Mastered low-level binary gate logic execution and optimized execution throughput using hardware-level bit shifts.
-- Engineered evaluation isolation filters to trace sequence logic and prevent boundary overflow errors in variable scopes.
+- Understood how numbers are manipulated directly at the binary bit level and how bit-shifting works as a faster alternative to multiplication and division.
+- Practiced tracking tricky variable updates to master the exact step-by-step execution differences between prefix and postfix operators.
 
 #### 💡 Key Concepts
-- **Gate Computations:** Implemented bitwise mappings (`&`, `|`, `^`, `~`) to execute logic directly on raw memory bit buffers.
-- **Bit Shift Optimization:** Leveraged left and right bit shifts (`<<`, `>>`) to calculate fast powers-of-two multiplications and divisions at the hardware layer.
-- **Side-Effect Sequencing:** Isolated evaluation ordering rules between pre-increment and post-increment expressions to control complex evaluation states.git rm --cached walpaaper
+- **Bitwise Operators:** Learned how `&`, `|`, `^`, and `~` compare numbers bit-by-bit in memory.
+- **Bit Shift Math:** Explored how Left Shift (`<<`) shifts binary bits left (multiplying by 2) and Right Shift (`>>`) shifts bits right (dividing by 2) efficiently.
+- **Operator Sequencing:** Mastered how pre-increment (`++i`) updates a variable instantly before it is used, while post-increment (`i++`) uses the current value first and updates it right after.
