@@ -1,15 +1,11 @@
-# Day 11 — Low-Level Syntax Foundations
+# Day 11 — Bitwise Operations & Operator Behavior
 
-## 📋 Production Source Mapping
+Today, I practiced working with low-level operators to understand how data is manipulated at a bit level and how variables update in memory.
 
-| Source File | Structural Objective | Terminal Compilation Command | Vector Scope |
-| :--- | :--- | :--- | :--- |
-| `01_bitwise_operators.cpp` | Validates bitwise logical manipulation matrices. | `g++ -O2 01_bitwise_operators.cpp` | Bitwise Gates |
-| `02_bit_shifts.cpp` | Evaluates algorithmic bit-stream shifts. | `g++ -O2 02_bit_shifts.cpp` | Hardware Shifts |
-| `03_increment_decrement.cpp` | Traces linear state mutations and sequencing bounds. | `g++ -O2 03_increment_decrement.cpp` | Pointer Mutation |
+## 📋 What I Practiced
 
----
-
-## 🛠️ Compilation Controls & Architecture
-* **Toolchain Optimization:** Standard GCC/G++ build optimization sequence (`-O2` execution configuration enabled).
-* **System Layout:** Modular code separation structure applied (One-File-One-Question architectural rule enforced).
+| File Name | Topic | Learning Objective |
+| :--- | :--- | :--- |
+| `01_bitwise_operators.cpp` | Bitwise Operators | Practiced using AND (`&`), OR (`\|`), NOT (`~`), and XOR (`^`) on binary numbers. |
+| `02_bit_shifts.cpp` | Bit Shifts | Learned how Left Shift (`<<`) and Right Shift (`>>`) slide binary bits left or right. |
+| `03_increment_decrement.cpp` | Increment & Decrement | Practiced the differences between Pre-increment (`++i`) and Post-increment (`i++`). |
