@@ -1,0 +1,914 @@
+[15:43:46.364] [I1] [Init] Instance created, timer started
+[15:43:46.638] [I1] [Change #1] Start → ec8d8088-995a-477c-b336-0d4fa6cc2422_720P.mp4, prevOpenId=0
+[15:43:46.641] [I1] [Change #1] Lock acquired, IsOpen=False
+[15:43:46.642] [I1] [Change #1] openId=2 assigned, opening ec8d8088-995a-477c-b336-0d4fa6cc2422_720P.mp4
+[15:43:46.668] [I1] [Change #1] Open done, openId=2, IsOpen=True, HasVideo=True
+[15:43:46.668] [I1] [Change #1] Safety Play(), openId=2
+[15:43:46.668] [I1] [Change #1] Lock released
+[15:43:46.671] [I1] [StateChanged] → Stop, openId=2
+[15:43:46.676] [I1] [MediaOpened] capturedId=2, current=2
+[15:43:46.688] [I1] [StateChanged] → Play, openId=2
+[15:43:46.804] [I1] [Pos→0] pos=0.00s, Media.Opacity=0.00, openId=2
+[15:43:46.808] [I1] [Pos→0] pos=0.01s, Media.Opacity=0.00, openId=2
+[15:43:46.810] [I1] [Pos→0] pos=0.02s, Media.Opacity=0.00, openId=2
+[15:43:46.830] [I1] [Pos→0] pos=0.02s, Media.Opacity=0.00, openId=2
+[15:43:46.834] [I1] [Pos→0] pos=0.03s, Media.Opacity=0.00, openId=2
+[15:43:46.835] [I1] [Pos→0] pos=0.04s, Media.Opacity=0.00, openId=2
+[15:43:46.844] [I1] [MediaOpened] Starting fade transition, openId=2, currentOpacity=0.00
+[15:43:46.854] [I1] [Pos→0] pos=0.05s, Media.Opacity=0.00, openId=2
+[15:43:46.857] [I1] [Pos→0] pos=0.06s, Media.Opacity=0.00, openId=2
+[15:43:46.857] [I1] [Pos→0] pos=0.06s, Media.Opacity=0.00, openId=2
+[15:43:46.865] [I1] [Pos→0] pos=0.07s, Media.Opacity=0.07, openId=2
+[15:43:46.872] [I1] [Pos→0] pos=0.08s, Media.Opacity=0.07, openId=2
+[15:43:46.881] [I1] [Pos→0] pos=0.09s, Media.Opacity=0.13, openId=2
+[15:43:46.889] [I1] [Pos→0] pos=0.10s, Media.Opacity=0.19, openId=2
+[15:43:46.899] [I1] [Pos→0] pos=0.11s, Media.Opacity=0.25, openId=2
+[15:43:46.905] [I1] [Pos→0] pos=0.11s, Media.Opacity=0.31, openId=2
+[15:43:46.914] [I1] [Pos→0] pos=0.12s, Media.Opacity=0.36, openId=2
+[15:43:46.922] [I1] [Pos→0] pos=0.13s, Media.Opacity=0.41, openId=2
+[15:43:46.933] [I1] [Pos→0] pos=0.14s, Media.Opacity=0.51, openId=2
+[15:43:46.939] [I1] [Pos→0] pos=0.15s, Media.Opacity=0.51, openId=2
+[15:43:46.948] [I1] [Pos→0] pos=0.16s, Media.Opacity=0.56, openId=2
+[15:43:46.956] [I1] [Pos→0] pos=0.16s, Media.Opacity=0.60, openId=2
+[15:43:46.964] [I1] [Pos→0] pos=0.17s, Media.Opacity=0.68, openId=2
+[15:43:46.972] [I1] [Pos→0] pos=0.18s, Media.Opacity=0.68, openId=2
+[15:43:46.981] [I1] [Pos→0] pos=0.19s, Media.Opacity=0.72, openId=2
+[15:43:46.989] [I1] [Pos→0] pos=0.20s, Media.Opacity=0.75, openId=2
+[15:43:47.000] [I1] [Pos→0] pos=0.21s, Media.Opacity=0.81, openId=2
+[15:43:47.005] [I1] [Pos→0] pos=0.21s, Media.Opacity=0.81, openId=2
+[15:43:47.014] [I1] [Pos→0] pos=0.22s, Media.Opacity=0.84, openId=2
+[15:43:47.022] [I1] [Pos→0] pos=0.23s, Media.Opacity=0.87, openId=2
+[15:43:47.035] [I1] [Pos→0] pos=0.24s, Media.Opacity=0.91, openId=2
+[15:43:47.039] [I1] [Pos→0] pos=0.25s, Media.Opacity=0.91, openId=2
+[15:43:47.047] [I1] [Pos→0] pos=0.26s, Media.Opacity=0.91, openId=2
+[15:43:47.056] [I1] [Pos→0] pos=0.26s, Media.Opacity=0.95, openId=2
+[15:43:47.066] [I1] [Pos→0] pos=0.27s, Media.Opacity=0.97, openId=2
+[15:43:47.072] [I1] [Pos→0] pos=0.28s, Media.Opacity=0.97, openId=2
+[15:43:47.081] [I1] [Pos→0] pos=0.29s, Media.Opacity=0.98, openId=2
+[15:43:47.092] [I1] [Pos→0] pos=0.30s, Media.Opacity=0.98, openId=2
+[15:43:47.099] [I1] [Pos→0] pos=0.31s, Media.Opacity=1.00, openId=2
+[15:43:47.106] [I1] [Pos→0] pos=0.31s, Media.Opacity=1.00, openId=2
+[15:43:47.114] [I1] [Pos→0] pos=0.32s, Media.Opacity=1.00, openId=2
+[15:43:47.116] [I1] [FadeIn.Completed] Media Opacity=1 baked, openId=2
+[15:43:47.117] [I1] [FadeOut.Completed] Poster cleared, openId=2
+[15:43:47.122] [I1] [Pos→0] pos=0.33s, Media.Opacity=1.00, openId=2
+[15:43:47.132] [I1] [Pos→0] pos=0.34s, Media.Opacity=1.00, openId=2
+[15:43:47.139] [I1] [Pos→0] pos=0.35s, Media.Opacity=1.00, openId=2
+[15:43:47.148] [I1] [Pos→0] pos=0.36s, Media.Opacity=1.00, openId=2
+[15:43:47.155] [I1] [Pos→0] pos=0.36s, Media.Opacity=1.00, openId=2
+[15:43:47.165] [I1] [Pos→0] pos=0.37s, Media.Opacity=1.00, openId=2
+[15:43:47.172] [I1] [Pos→0] pos=0.38s, Media.Opacity=1.00, openId=2
+[15:43:47.180] [I1] [Pos→0] pos=0.39s, Media.Opacity=1.00, openId=2
+[15:43:47.189] [I1] [Pos→0] pos=0.40s, Media.Opacity=1.00, openId=2
+[15:43:47.198] [I1] [Pos→0] pos=0.41s, Media.Opacity=1.00, openId=2
+[15:43:47.206] [I1] [Pos→0] pos=0.41s, Media.Opacity=1.00, openId=2
+[15:43:47.214] [I1] [Pos→0] pos=0.42s, Media.Opacity=1.00, openId=2
+[15:43:47.222] [I1] [Pos→0] pos=0.43s, Media.Opacity=1.00, openId=2
+[15:43:47.233] [I1] [Pos→0] pos=0.44s, Media.Opacity=1.00, openId=2
+[15:43:47.239] [I1] [Pos→0] pos=0.45s, Media.Opacity=1.00, openId=2
+[15:43:47.247] [I1] [Pos→0] pos=0.46s, Media.Opacity=1.00, openId=2
+[15:43:47.255] [I1] [Pos→0] pos=0.46s, Media.Opacity=1.00, openId=2
+[15:43:47.265] [I1] [Pos→0] pos=0.47s, Media.Opacity=1.00, openId=2
+[15:43:47.271] [I1] [Pos→0] pos=0.48s, Media.Opacity=1.00, openId=2
+[15:43:47.281] [I1] [Pos→0] pos=0.49s, Media.Opacity=1.00, openId=2
+[15:43:47.289] [I1] [Pos→0] pos=0.50s, Media.Opacity=1.00, openId=2
+[15:43:47.376] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=0.6s
+[15:43:48.370] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=1.6s
+[15:43:49.366] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=2.5s
+[15:43:49.567] [I1] [Change #2] Start → null, prevOpenId=2
+[15:43:49.568] [I1] [Change #2] Lock acquired, IsOpen=True
+[15:43:49.568] [I1] [Change #2] Closing media
+[15:43:49.650] [I1] [Pos→0] pos=0.00s, Media.Opacity=0.00, openId=0
+[15:43:49.756] [I1] [StateChanged] → Close, openId=0
+[15:43:49.818] [I1] [Change #2] Media closed + dispatcher drained
+[15:43:49.818] [I1] [Change #2] Lock released
+[15:43:56.724] [I1] [Change #3] Start → d56f3bf2-eaac-4ff7-b29e-27b455b8b065_720P.mp4, prevOpenId=0
+[15:43:56.725] [I1] [Change #3] Lock acquired, IsOpen=False
+[15:43:56.725] [I1] [Change #3] openId=3 assigned, opening d56f3bf2-eaac-4ff7-b29e-27b455b8b065_720P.mp4
+[15:43:56.741] [I1] [Change #3] Open done, openId=3, IsOpen=True, HasVideo=True
+[15:43:56.742] [I1] [Change #3] Safety Play(), openId=3
+[15:43:56.742] [I1] [Change #3] Lock released
+[15:43:56.742] [I1] [StateChanged] → Stop, openId=3
+[15:43:56.743] [I1] [MediaOpened] capturedId=3, current=3
+[15:43:56.763] [I1] [StateChanged] → Play, openId=3
+[15:43:56.838] [I1] [Pos→0] pos=0.01s, Media.Opacity=0.00, openId=3
+[15:43:56.842] [I1] [Pos→0] pos=0.01s, Media.Opacity=0.00, openId=3
+[15:43:56.863] [I1] [Pos→0] pos=0.03s, Media.Opacity=0.00, openId=3
+[15:43:56.882] [I1] [Pos→0] pos=0.05s, Media.Opacity=0.00, openId=3
+[15:43:56.884] [I1] [Pos→0] pos=0.05s, Media.Opacity=0.00, openId=3
+[15:43:56.892] [I1] [Pos→0] pos=0.06s, Media.Opacity=0.00, openId=3
+[15:43:56.901] [I1] [MediaOpened] Starting fade transition, openId=3, currentOpacity=0.00
+[15:43:56.903] [I1] [Pos→0] pos=0.07s, Media.Opacity=0.00, openId=3
+[15:43:56.906] [I1] [Pos→0] pos=0.08s, Media.Opacity=0.00, openId=3
+[15:43:56.916] [I1] [Pos→0] pos=0.09s, Media.Opacity=0.07, openId=3
+[15:43:56.944] [I1] [Pos→0] pos=0.09s, Media.Opacity=0.13, openId=3
+[15:43:56.945] [I1] [Pos→0] pos=0.12s, Media.Opacity=0.13, openId=3
+[15:43:56.950] [I1] [Pos→0] pos=0.12s, Media.Opacity=0.31, openId=3
+[15:43:56.957] [I1] [Pos→0] pos=0.13s, Media.Opacity=0.36, openId=3
+[15:43:56.968] [I1] [Pos→0] pos=0.14s, Media.Opacity=0.46, openId=3
+[15:43:56.974] [I1] [Pos→0] pos=0.14s, Media.Opacity=0.46, openId=3
+[15:43:56.982] [I1] [Pos→0] pos=0.15s, Media.Opacity=0.46, openId=3
+[15:43:56.990] [I1] [Pos→0] pos=0.16s, Media.Opacity=0.56, openId=3
+[15:43:57.001] [I1] [Pos→0] pos=0.17s, Media.Opacity=0.64, openId=3
+[15:43:57.010] [I1] [Pos→0] pos=0.18s, Media.Opacity=0.68, openId=3
+[15:43:57.015] [I1] [Pos→0] pos=0.19s, Media.Opacity=0.68, openId=3
+[15:43:57.023] [I1] [Pos→0] pos=0.19s, Media.Opacity=0.72, openId=3
+[15:43:57.034] [I1] [Pos→0] pos=0.20s, Media.Opacity=0.78, openId=3
+[15:43:57.040] [I1] [Pos→0] pos=0.21s, Media.Opacity=0.78, openId=3
+[15:43:57.048] [I1] [Pos→0] pos=0.22s, Media.Opacity=0.81, openId=3
+[15:43:57.057] [I1] [Pos→0] pos=0.23s, Media.Opacity=0.84, openId=3
+[15:43:57.067] [I1] [Pos→0] pos=0.24s, Media.Opacity=0.89, openId=3
+[15:43:57.073] [I1] [Pos→0] pos=0.24s, Media.Opacity=0.89, openId=3
+[15:43:57.082] [I1] [Pos→0] pos=0.25s, Media.Opacity=0.91, openId=3
+[15:43:57.091] [I1] [Pos→0] pos=0.26s, Media.Opacity=0.95, openId=3
+[15:43:57.101] [I1] [Pos→0] pos=0.27s, Media.Opacity=0.95, openId=3
+[15:43:57.108] [I1] [Pos→0] pos=0.28s, Media.Opacity=0.96, openId=3
+[15:43:57.115] [I1] [Pos→0] pos=0.29s, Media.Opacity=0.97, openId=3
+[15:43:57.124] [I1] [Pos→0] pos=0.29s, Media.Opacity=0.98, openId=3
+[15:43:57.133] [I1] [Pos→0] pos=0.30s, Media.Opacity=0.99, openId=3
+[15:43:57.140] [I1] [Pos→0] pos=0.31s, Media.Opacity=1.00, openId=3
+[15:43:57.149] [I1] [Pos→0] pos=0.32s, Media.Opacity=1.00, openId=3
+[15:43:57.157] [I1] [Pos→0] pos=0.33s, Media.Opacity=1.00, openId=3
+[15:43:57.160] [I1] [FadeIn.Completed] Media Opacity=1 baked, openId=3
+[15:43:57.160] [I1] [FadeOut.Completed] Poster cleared, openId=3
+[15:43:57.170] [I1] [Pos→0] pos=0.34s, Media.Opacity=1.00, openId=3
+[15:43:57.173] [I1] [Pos→0] pos=0.34s, Media.Opacity=1.00, openId=3
+[15:43:57.182] [I1] [Pos→0] pos=0.35s, Media.Opacity=1.00, openId=3
+[15:43:57.190] [I1] [Pos→0] pos=0.36s, Media.Opacity=1.00, openId=3
+[15:43:57.200] [I1] [Pos→0] pos=0.37s, Media.Opacity=1.00, openId=3
+[15:43:57.207] [I1] [Pos→0] pos=0.38s, Media.Opacity=1.00, openId=3
+[15:43:57.215] [I1] [Pos→0] pos=0.39s, Media.Opacity=1.00, openId=3
+[15:43:57.223] [I1] [Pos→0] pos=0.39s, Media.Opacity=1.00, openId=3
+[15:43:57.233] [I1] [Pos→0] pos=0.40s, Media.Opacity=1.00, openId=3
+[15:43:57.240] [I1] [Pos→0] pos=0.41s, Media.Opacity=1.00, openId=3
+[15:43:57.248] [I1] [Pos→0] pos=0.42s, Media.Opacity=1.00, openId=3
+[15:43:57.256] [I1] [Pos→0] pos=0.43s, Media.Opacity=1.00, openId=3
+[15:43:57.266] [I1] [Pos→0] pos=0.44s, Media.Opacity=1.00, openId=3
+[15:43:57.274] [I1] [Pos→0] pos=0.44s, Media.Opacity=1.00, openId=3
+[15:43:57.281] [I1] [Pos→0] pos=0.45s, Media.Opacity=1.00, openId=3
+[15:43:57.290] [I1] [Pos→0] pos=0.46s, Media.Opacity=1.00, openId=3
+[15:43:57.299] [I1] [Pos→0] pos=0.47s, Media.Opacity=1.00, openId=3
+[15:43:57.307] [I1] [Pos→0] pos=0.48s, Media.Opacity=1.00, openId=3
+[15:43:57.315] [I1] [Pos→0] pos=0.49s, Media.Opacity=1.00, openId=3
+[15:43:57.323] [I1] [Pos→0] pos=0.49s, Media.Opacity=1.00, openId=3
+[15:43:57.401] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=3, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=0.5s
+[15:43:58.397] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=3, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=1.6s
+[15:43:59.204] [I1] [Change #4] Start → null, prevOpenId=3
+[15:43:59.205] [I1] [Change #4] Lock acquired, IsOpen=True
+[15:43:59.205] [I1] [Change #4] Closing media
+[15:43:59.378] [I1] [Pos→0] pos=0.00s, Media.Opacity=0.00, openId=0
+[15:43:59.391] [I1] [StateChanged] → Close, openId=0
+[15:43:59.412] [I1] [Change #4] Media closed + dispatcher drained
+[15:43:59.412] [I1] [Change #4] Lock released
+[15:44:01.074] [I1] [Change #5] Start → feb3ff59-64bb-4cd2-bc90-720e200082c2_720P.mp4, prevOpenId=0
+[15:44:01.075] [I1] [Change #5] Lock acquired, IsOpen=False
+[15:44:01.076] [I1] [Change #5] openId=4 assigned, opening feb3ff59-64bb-4cd2-bc90-720e200082c2_720P.mp4
+[15:44:01.093] [I1] [Change #5] Open done, openId=4, IsOpen=True, HasVideo=True
+[15:44:01.093] [I1] [Change #5] Safety Play(), openId=4
+[15:44:01.094] [I1] [Change #5] Lock released
+[15:44:01.094] [I1] [StateChanged] → Stop, openId=4
+[15:44:01.095] [I1] [MediaOpened] capturedId=4, current=4
+[15:44:01.121] [I1] [StateChanged] → Play, openId=4
+[15:44:01.282] [I1] [MediaOpened] Starting fade transition, openId=4, currentOpacity=0.00
+[15:44:01.286] [I1] [Pos→0] pos=0.01s, Media.Opacity=0.00, openId=4
+[15:44:01.286] [I1] [Pos→0] pos=0.02s, Media.Opacity=0.00, openId=4
+[15:44:01.287] [I1] [Pos→0] pos=0.06s, Media.Opacity=0.00, openId=4
+[15:44:01.287] [I1] [Pos→0] pos=0.07s, Media.Opacity=0.00, openId=4
+[15:44:01.294] [I1] [Pos→0] pos=0.07s, Media.Opacity=0.07, openId=4
+[15:44:01.302] [I1] [Pos→0] pos=0.08s, Media.Opacity=0.07, openId=4
+[15:44:01.308] [I1] [Pos→0] pos=0.09s, Media.Opacity=0.13, openId=4
+[15:44:01.319] [I1] [Pos→0] pos=0.10s, Media.Opacity=0.19, openId=4
+[15:44:01.326] [I1] [Pos→0] pos=0.11s, Media.Opacity=0.25, openId=4
+[15:44:01.338] [I1] [Pos→0] pos=0.12s, Media.Opacity=0.31, openId=4
+[15:44:01.342] [I1] [Pos→0] pos=0.12s, Media.Opacity=0.36, openId=4
+[15:44:01.351] [I1] [Pos→0] pos=0.13s, Media.Opacity=0.41, openId=4
+[15:44:01.358] [I1] [Pos→0] pos=0.14s, Media.Opacity=0.46, openId=4
+[15:44:01.368] [I1] [Pos→0] pos=0.15s, Media.Opacity=0.51, openId=4
+[15:44:01.375] [I1] [Pos→0] pos=0.16s, Media.Opacity=0.56, openId=4
+[15:44:01.386] [I1] [Pos→0] pos=0.17s, Media.Opacity=0.64, openId=4
+[15:44:01.392] [I1] [Pos→0] pos=0.17s, Media.Opacity=0.64, openId=4
+[15:44:01.402] [I1] [Pos→0] pos=0.18s, Media.Opacity=0.72, openId=4
+[15:44:01.410] [I1] [Pos→0] pos=0.19s, Media.Opacity=0.72, openId=4
+[15:44:01.417] [I1] [Pos→0] pos=0.20s, Media.Opacity=0.75, openId=4
+[15:44:01.428] [I1] [Pos→0] pos=0.21s, Media.Opacity=0.81, openId=4
+[15:44:01.434] [I1] [Pos→0] pos=0.21s, Media.Opacity=0.81, openId=4
+[15:44:01.444] [I1] [Pos→0] pos=0.22s, Media.Opacity=0.87, openId=4
+[15:44:01.450] [I1] [Pos→0] pos=0.23s, Media.Opacity=0.87, openId=4
+[15:44:01.460] [I1] [Pos→0] pos=0.24s, Media.Opacity=0.89, openId=4
+[15:44:01.467] [I1] [Pos→0] pos=0.25s, Media.Opacity=0.91, openId=4
+[15:44:01.476] [I1] [Pos→0] pos=0.26s, Media.Opacity=0.93, openId=4
+[15:44:01.483] [I1] [Pos→0] pos=0.26s, Media.Opacity=0.95, openId=4
+[15:44:01.493] [I1] [Pos→0] pos=0.27s, Media.Opacity=0.96, openId=4
+[15:44:01.500] [I1] [Pos→0] pos=0.28s, Media.Opacity=0.97, openId=4
+[15:44:01.508] [I1] [Pos→0] pos=0.29s, Media.Opacity=0.98, openId=4
+[15:44:01.520] [I1] [Pos→0] pos=0.30s, Media.Opacity=1.00, openId=4
+[15:44:01.526] [I1] [Pos→0] pos=0.31s, Media.Opacity=1.00, openId=4
+[15:44:01.535] [I1] [Pos→0] pos=0.32s, Media.Opacity=1.00, openId=4
+[15:44:01.542] [I1] [Pos→0] pos=0.32s, Media.Opacity=1.00, openId=4
+[15:44:01.544] [I1] [FadeIn.Completed] Media Opacity=1 baked, openId=4
+[15:44:01.544] [I1] [FadeOut.Completed] Poster cleared, openId=4
+[15:44:01.553] [I1] [Pos→0] pos=0.33s, Media.Opacity=1.00, openId=4
+[15:44:01.558] [I1] [Pos→0] pos=0.34s, Media.Opacity=1.00, openId=4
+[15:44:01.569] [I1] [Pos→0] pos=0.35s, Media.Opacity=1.00, openId=4
+[15:44:01.575] [I1] [Pos→0] pos=0.36s, Media.Opacity=1.00, openId=4
+[15:44:01.588] [I1] [Pos→0] pos=0.37s, Media.Opacity=1.00, openId=4
+[15:44:01.592] [I1] [Pos→0] pos=0.37s, Media.Opacity=1.00, openId=4
+[15:44:01.601] [I1] [Pos→0] pos=0.38s, Media.Opacity=1.00, openId=4
+[15:44:01.609] [I1] [Pos→0] pos=0.39s, Media.Opacity=1.00, openId=4
+[15:44:01.617] [I1] [Pos→0] pos=0.40s, Media.Opacity=1.00, openId=4
+[15:44:01.628] [I1] [Pos→0] pos=0.41s, Media.Opacity=1.00, openId=4
+[15:44:01.634] [I1] [Pos→0] pos=0.41s, Media.Opacity=1.00, openId=4
+[15:44:01.643] [I1] [Pos→0] pos=0.42s, Media.Opacity=1.00, openId=4
+[15:44:01.650] [I1] [Pos→0] pos=0.43s, Media.Opacity=1.00, openId=4
+[15:44:01.660] [I1] [Pos→0] pos=0.44s, Media.Opacity=1.00, openId=4
+[15:44:01.667] [I1] [Pos→0] pos=0.45s, Media.Opacity=1.00, openId=4
+[15:44:01.677] [I1] [Pos→0] pos=0.46s, Media.Opacity=1.00, openId=4
+[15:44:01.684] [I1] [Pos→0] pos=0.46s, Media.Opacity=1.00, openId=4
+[15:44:01.693] [I1] [Pos→0] pos=0.47s, Media.Opacity=1.00, openId=4
+[15:44:01.701] [I1] [Pos→0] pos=0.48s, Media.Opacity=1.00, openId=4
+[15:44:01.710] [I1] [Pos→0] pos=0.49s, Media.Opacity=1.00, openId=4
+[15:44:01.717] [I1] [Pos→0] pos=0.50s, Media.Opacity=1.00, openId=4
+[15:44:01.903] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=4, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=0.7s
+[15:44:02.876] [I1] [Change #6] Start → null, prevOpenId=4
+[15:44:02.877] [I1] [Change #6] Lock acquired, IsOpen=True
+[15:44:02.878] [I1] [Change #6] Closing media
+[15:44:02.992] [I1] [Pos→0] pos=0.00s, Media.Opacity=0.00, openId=0
+[15:44:03.012] [I1] [StateChanged] → Close, openId=0
+[15:44:03.017] [I1] [Change #6] Media closed + dispatcher drained
+[15:44:03.018] [I1] [Change #6] Lock released
+[15:44:06.027] [I1] [Change #7] Start → 7E542C7C-6E8E-4CCD-9BCD-01FB653E75DB_720P.mp4, prevOpenId=0
+[15:44:06.027] [I1] [Change #7] Lock acquired, IsOpen=False
+[15:44:06.028] [I1] [Change #7] openId=5 assigned, opening 7E542C7C-6E8E-4CCD-9BCD-01FB653E75DB_720P.mp4
+[15:44:06.040] [I1] [Change #7] Open done, openId=5, IsOpen=True, HasVideo=True
+[15:44:06.040] [I1] [Change #7] Safety Play(), openId=5
+[15:44:06.040] [I1] [Change #7] Lock released
+[15:44:06.042] [I1] [StateChanged] → Stop, openId=5
+[15:44:06.043] [I1] [MediaOpened] capturedId=5, current=5
+[15:44:06.060] [I1] [StateChanged] → Play, openId=5
+[15:44:06.142] [I1] [Heartbeat] Opacity=0.00, PosterOpacity=1.00, PosterHasSrc=True, openId=5, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=0.0s
+[15:44:06.221] [I1] [MediaOpened] Starting fade transition, openId=5, currentOpacity=0.00
+[15:44:06.473] [I1] [Pos→0] pos=0.00s, Media.Opacity=0.99, openId=5
+[15:44:06.474] [I1] [FadeIn.Completed] Media Opacity=1 baked, openId=5
+[15:44:06.475] [I1] [FadeOut.Completed] Poster cleared, openId=5
+[15:44:06.543] [I1] [Pos→0] pos=0.07s, Media.Opacity=1.00, openId=5
+[15:44:06.593] [I1] [Pos→0] pos=0.12s, Media.Opacity=1.00, openId=5
+[15:44:06.624] [I1] [Pos→0] pos=0.15s, Media.Opacity=1.00, openId=5
+[15:44:06.798] [I1] [Pos→0] pos=0.32s, Media.Opacity=1.00, openId=5
+[15:44:06.857] [I1] [Pos→0] pos=0.37s, Media.Opacity=1.00, openId=5
+[15:44:06.902] [I1] [Pos→0] pos=0.41s, Media.Opacity=1.00, openId=5
+[15:44:06.962] [I1] [Pos→0] pos=0.47s, Media.Opacity=1.00, openId=5
+[15:44:07.131] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=5, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=0.5s
+[15:44:08.180] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=5, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=1.4s
+[15:44:09.491] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=5, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=2.7s
+[15:44:10.064] [I1] [Change #8] Start → null, prevOpenId=5
+[15:44:10.065] [I1] [Change #8] Lock acquired, IsOpen=True
+[15:44:10.065] [I1] [Change #8] Closing media
+[15:44:10.278] [I1] [Pos→0] pos=0.00s, Media.Opacity=0.00, openId=0
+[15:44:10.279] [I1] [StateChanged] → Close, openId=0
+[15:44:10.337] [I1] [Change #8] Media closed + dispatcher drained
+[15:44:10.338] [I1] [Change #8] Lock released
+[15:44:21.923] [I1] [Change #9] Start → df028853-86e0-4427-ac04-a2d8c71df949_720P.mp4, prevOpenId=0
+[15:44:21.925] [I1] [Change #9] Lock acquired, IsOpen=False
+[15:44:21.925] [I1] [Change #9] openId=6 assigned, opening df028853-86e0-4427-ac04-a2d8c71df949_720P.mp4
+[15:44:21.941] [I1] [Change #9] Open done, openId=6, IsOpen=True, HasVideo=True
+[15:44:21.944] [I1] [Change #9] Safety Play(), openId=6
+[15:44:21.945] [I1] [Change #9] Lock released
+[15:44:21.947] [I1] [StateChanged] → Stop, openId=6
+[15:44:21.948] [I1] [MediaOpened] capturedId=6, current=6
+[15:44:21.974] [I1] [StateChanged] → Play, openId=6
+[15:44:22.080] [I1] [Pos→0] pos=0.00s, Media.Opacity=0.00, openId=6
+[15:44:22.084] [I1] [Pos→0] pos=0.01s, Media.Opacity=0.00, openId=6
+[15:44:22.093] [I1] [Pos→0] pos=0.02s, Media.Opacity=0.00, openId=6
+[15:44:22.100] [I1] [MediaOpened] Starting fade transition, openId=6, currentOpacity=0.00
+[15:44:22.101] [I1] [Pos→0] pos=0.03s, Media.Opacity=0.00, openId=6
+[15:44:22.111] [I1] [Pos→0] pos=0.04s, Media.Opacity=0.07, openId=6
+[15:44:22.117] [I1] [Pos→0] pos=0.04s, Media.Opacity=0.07, openId=6
+[15:44:22.132] [I1] [Pos→0] pos=0.05s, Media.Opacity=0.19, openId=6
+[15:44:22.134] [I1] [Pos→0] pos=0.06s, Media.Opacity=0.19, openId=6
+[15:44:22.143] [I1] [Pos→0] pos=0.07s, Media.Opacity=0.31, openId=6
+[15:44:22.151] [I1] [Pos→0] pos=0.08s, Media.Opacity=0.31, openId=6
+[15:44:22.162] [I1] [Pos→0] pos=0.09s, Media.Opacity=0.41, openId=6
+[15:44:22.168] [I1] [Pos→0] pos=0.09s, Media.Opacity=0.41, openId=6
+[15:44:22.179] [I1] [Pos→0] pos=0.11s, Media.Opacity=0.46, openId=6
+[15:44:22.184] [I1] [Pos→0] pos=0.11s, Media.Opacity=0.51, openId=6
+[15:44:22.198] [I1] [Pos→0] pos=0.12s, Media.Opacity=0.56, openId=6
+[15:44:22.200] [I1] [Pos→0] pos=0.13s, Media.Opacity=0.60, openId=6
+[15:44:22.210] [I1] [Pos→0] pos=0.14s, Media.Opacity=0.64, openId=6
+[15:44:22.217] [I1] [Pos→0] pos=0.14s, Media.Opacity=0.68, openId=6
+[15:44:22.231] [I1] [Pos→0] pos=0.16s, Media.Opacity=0.75, openId=6
+[15:44:22.235] [I1] [Pos→0] pos=0.16s, Media.Opacity=0.78, openId=6
+[15:44:22.243] [I1] [Pos→0] pos=0.17s, Media.Opacity=0.81, openId=6
+[15:44:22.250] [I1] [Pos→0] pos=0.18s, Media.Opacity=0.81, openId=6
+[15:44:22.260] [I1] [Pos→0] pos=0.19s, Media.Opacity=0.84, openId=6
+[15:44:22.270] [I1] [Pos→0] pos=0.19s, Media.Opacity=0.84, openId=6
+[15:44:22.278] [I1] [Pos→0] pos=0.20s, Media.Opacity=0.89, openId=6
+[15:44:22.284] [I1] [Pos→0] pos=0.21s, Media.Opacity=0.91, openId=6
+[15:44:22.300] [I1] [Pos→0] pos=0.23s, Media.Opacity=0.95, openId=6
+[15:44:22.313] [I1] [Pos→0] pos=0.24s, Media.Opacity=0.97, openId=6
+[15:44:22.317] [I1] [Pos→0] pos=0.24s, Media.Opacity=0.97, openId=6
+[15:44:22.328] [I1] [Pos→0] pos=0.25s, Media.Opacity=0.99, openId=6
+[15:44:22.334] [I1] [Pos→0] pos=0.26s, Media.Opacity=0.99, openId=6
+[15:44:22.343] [I1] [Pos→0] pos=0.27s, Media.Opacity=1.00, openId=6
+[15:44:22.350] [I1] [Pos→0] pos=0.28s, Media.Opacity=1.00, openId=6
+[15:44:22.360] [I1] [FadeIn.Completed] Media Opacity=1 baked, openId=6
+[15:44:22.361] [I1] [FadeOut.Completed] Poster cleared, openId=6
+[15:44:22.362] [I1] [Pos→0] pos=0.29s, Media.Opacity=1.00, openId=6
+[15:44:22.367] [I1] [Pos→0] pos=0.29s, Media.Opacity=1.00, openId=6
+[15:44:22.377] [I1] [Pos→0] pos=0.30s, Media.Opacity=1.00, openId=6
+[15:44:22.384] [I1] [Pos→0] pos=0.31s, Media.Opacity=1.00, openId=6
+[15:44:22.393] [I1] [Pos→0] pos=0.32s, Media.Opacity=1.00, openId=6
+[15:44:22.401] [I1] [Pos→0] pos=0.33s, Media.Opacity=1.00, openId=6
+[15:44:22.410] [I1] [Pos→0] pos=0.34s, Media.Opacity=1.00, openId=6
+[15:44:22.417] [I1] [Pos→0] pos=0.34s, Media.Opacity=1.00, openId=6
+[15:44:22.426] [I1] [Pos→0] pos=0.35s, Media.Opacity=1.00, openId=6
+[15:44:22.435] [I1] [Pos→0] pos=0.36s, Media.Opacity=1.00, openId=6
+[15:44:22.444] [I1] [Pos→0] pos=0.37s, Media.Opacity=1.00, openId=6
+[15:44:22.451] [I1] [Pos→0] pos=0.38s, Media.Opacity=1.00, openId=6
+[15:44:22.463] [I1] [Pos→0] pos=0.39s, Media.Opacity=1.00, openId=6
+[15:44:22.468] [I1] [Pos→0] pos=0.39s, Media.Opacity=1.00, openId=6
+[15:44:22.477] [I1] [Pos→0] pos=0.40s, Media.Opacity=1.00, openId=6
+[15:44:22.484] [I1] [Pos→0] pos=0.41s, Media.Opacity=1.00, openId=6
+[15:44:22.493] [I1] [Pos→0] pos=0.42s, Media.Opacity=1.00, openId=6
+[15:44:22.501] [I1] [Pos→0] pos=0.43s, Media.Opacity=1.00, openId=6
+[15:44:22.510] [I1] [Pos→0] pos=0.44s, Media.Opacity=1.00, openId=6
+[15:44:22.517] [I1] [Pos→0] pos=0.44s, Media.Opacity=1.00, openId=6
+[15:44:22.526] [I1] [Pos→0] pos=0.45s, Media.Opacity=1.00, openId=6
+[15:44:22.534] [I1] [Pos→0] pos=0.46s, Media.Opacity=1.00, openId=6
+[15:44:22.543] [I1] [Pos→0] pos=0.47s, Media.Opacity=1.00, openId=6
+[15:44:22.551] [I1] [Pos→0] pos=0.48s, Media.Opacity=1.00, openId=6
+[15:44:22.561] [I1] [Pos→0] pos=0.49s, Media.Opacity=1.00, openId=6
+[15:44:22.567] [I1] [Pos→0] pos=0.49s, Media.Opacity=1.00, openId=6
+[15:44:22.614] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=6, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=0.5s
+[15:44:23.856] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=6, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=1.5s
+[15:44:24.980] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=6, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=2.6s
+[15:44:25.892] [I1] [Change #10] Start → null, prevOpenId=6
+[15:44:25.893] [I1] [Change #10] Lock acquired, IsOpen=True
+[15:44:25.895] [I1] [Change #10] Closing media
+[15:44:26.045] [I1] [Pos→0] pos=0.00s, Media.Opacity=0.00, openId=0
+[15:44:26.072] [I1] [StateChanged] → Close, openId=0
+[15:44:26.102] [I1] [Change #10] Media closed + dispatcher drained
+[15:44:26.103] [I1] [Change #10] Lock released
+[15:44:33.047] [I1] [Change #11] Start → d6723089-5b9c-450b-a829-0fb573bcf3f1_720P.mp4, prevOpenId=0
+[15:44:33.048] [I1] [Change #11] Lock acquired, IsOpen=False
+[15:44:33.048] [I1] [Change #11] openId=7 assigned, opening d6723089-5b9c-450b-a829-0fb573bcf3f1_720P.mp4
+[15:44:33.056] [I1] [Change #11] Open done, openId=7, IsOpen=True, HasVideo=True
+[15:44:33.057] [I1] [Change #11] Safety Play(), openId=7
+[15:44:33.058] [I1] [Change #11] Lock released
+[15:44:33.060] [I1] [StateChanged] → Stop, openId=7
+[15:44:33.062] [I1] [MediaOpened] capturedId=7, current=7
+[15:44:33.079] [I1] [StateChanged] → Play, openId=7
+[15:44:33.161] [I1] [Pos→0] pos=0.00s, Media.Opacity=0.00, openId=7
+[15:44:33.163] [I1] [Pos→0] pos=0.01s, Media.Opacity=0.00, openId=7
+[15:44:33.171] [I1] [Pos→0] pos=0.02s, Media.Opacity=0.00, openId=7
+[15:44:33.180] [I1] [Pos→0] pos=0.03s, Media.Opacity=0.00, openId=7
+[15:44:33.189] [I1] [Pos→0] pos=0.03s, Media.Opacity=0.00, openId=7
+[15:44:33.196] [I1] [Pos→0] pos=0.04s, Media.Opacity=0.00, openId=7
+[15:44:33.228] [I1] [MediaOpened] Starting fade transition, openId=7, currentOpacity=0.00
+[15:44:33.233] [I1] [Pos→0] pos=0.05s, Media.Opacity=0.00, openId=7
+[15:44:33.234] [I1] [Pos→0] pos=0.06s, Media.Opacity=0.00, openId=7
+[15:44:33.234] [I1] [Pos→0] pos=0.08s, Media.Opacity=0.00, openId=7
+[15:44:33.240] [I1] [Pos→0] pos=0.08s, Media.Opacity=0.00, openId=7
+[15:44:33.247] [I1] [Pos→0] pos=0.09s, Media.Opacity=0.07, openId=7
+[15:44:33.257] [I1] [Pos→0] pos=0.10s, Media.Opacity=0.13, openId=7
+[15:44:33.263] [I1] [Pos→0] pos=0.11s, Media.Opacity=0.19, openId=7
+[15:44:33.271] [I1] [Pos→0] pos=0.12s, Media.Opacity=0.25, openId=7
+[15:44:33.280] [I1] [Pos→0] pos=0.13s, Media.Opacity=0.31, openId=7
+[15:44:33.292] [I1] [Pos→0] pos=0.14s, Media.Opacity=0.36, openId=7
+[15:44:33.299] [I1] [Pos→0] pos=0.14s, Media.Opacity=0.41, openId=7
+[15:44:33.305] [I1] [Pos→0] pos=0.15s, Media.Opacity=0.46, openId=7
+[15:44:33.313] [I1] [Pos→0] pos=0.16s, Media.Opacity=0.46, openId=7
+[15:44:33.323] [I1] [Pos→0] pos=0.17s, Media.Opacity=0.60, openId=7
+[15:44:33.332] [I1] [Pos→0] pos=0.18s, Media.Opacity=0.60, openId=7
+[15:44:33.338] [I1] [Pos→0] pos=0.18s, Media.Opacity=0.64, openId=7
+[15:44:33.348] [I1] [Pos→0] pos=0.19s, Media.Opacity=0.68, openId=7
+[15:44:33.355] [I1] [Pos→0] pos=0.20s, Media.Opacity=0.75, openId=7
+[15:44:33.363] [I1] [Pos→0] pos=0.21s, Media.Opacity=0.75, openId=7
+[15:44:33.371] [I1] [Pos→0] pos=0.22s, Media.Opacity=0.78, openId=7
+[15:44:33.379] [I1] [Pos→0] pos=0.23s, Media.Opacity=0.81, openId=7
+[15:44:33.391] [I1] [Pos→0] pos=0.24s, Media.Opacity=0.87, openId=7
+[15:44:33.396] [I1] [Pos→0] pos=0.24s, Media.Opacity=0.87, openId=7
+[15:44:33.405] [I1] [Pos→0] pos=0.25s, Media.Opacity=0.89, openId=7
+[15:44:33.413] [I1] [Pos→0] pos=0.26s, Media.Opacity=0.93, openId=7
+[15:44:33.423] [I1] [Pos→0] pos=0.27s, Media.Opacity=0.95, openId=7
+[15:44:33.429] [I1] [Pos→0] pos=0.28s, Media.Opacity=0.95, openId=7
+[15:44:33.438] [I1] [Pos→0] pos=0.28s, Media.Opacity=0.96, openId=7
+[15:44:33.446] [I1] [Pos→0] pos=0.29s, Media.Opacity=0.97, openId=7
+[15:44:33.456] [I1] [Pos→0] pos=0.30s, Media.Opacity=0.99, openId=7
+[15:44:33.464] [I1] [Pos→0] pos=0.31s, Media.Opacity=0.99, openId=7
+[15:44:33.471] [I1] [Pos→0] pos=0.32s, Media.Opacity=1.00, openId=7
+[15:44:33.480] [I1] [Pos→0] pos=0.33s, Media.Opacity=1.00, openId=7
+[15:44:33.488] [I1] [FadeIn.Completed] Media Opacity=1 baked, openId=7
+[15:44:33.489] [I1] [FadeOut.Completed] Poster cleared, openId=7
+[15:44:33.490] [I1] [Pos→0] pos=0.34s, Media.Opacity=1.00, openId=7
+[15:44:33.496] [I1] [Pos→0] pos=0.34s, Media.Opacity=1.00, openId=7
+[15:44:33.506] [I1] [Pos→0] pos=0.35s, Media.Opacity=1.00, openId=7
+[15:44:33.513] [I1] [Pos→0] pos=0.36s, Media.Opacity=1.00, openId=7
+[15:44:33.522] [I1] [Pos→0] pos=0.37s, Media.Opacity=1.00, openId=7
+[15:44:33.530] [I1] [Pos→0] pos=0.38s, Media.Opacity=1.00, openId=7
+[15:44:33.538] [I1] [Pos→0] pos=0.38s, Media.Opacity=1.00, openId=7
+[15:44:33.547] [I1] [Pos→0] pos=0.39s, Media.Opacity=1.00, openId=7
+[15:44:33.557] [I1] [Pos→0] pos=0.40s, Media.Opacity=1.00, openId=7
+[15:44:33.563] [I1] [Pos→0] pos=0.41s, Media.Opacity=1.00, openId=7
+[15:44:33.571] [I1] [Pos→0] pos=0.42s, Media.Opacity=1.00, openId=7
+[15:44:33.580] [I1] [Pos→0] pos=0.43s, Media.Opacity=1.00, openId=7
+[15:44:33.588] [I1] [Pos→0] pos=0.43s, Media.Opacity=1.00, openId=7
+[15:44:33.596] [I1] [Pos→0] pos=0.44s, Media.Opacity=1.00, openId=7
+[15:44:33.604] [I1] [Pos→0] pos=0.45s, Media.Opacity=1.00, openId=7
+[15:44:33.613] [I1] [Pos→0] pos=0.46s, Media.Opacity=1.00, openId=7
+[15:44:33.622] [I1] [Pos→0] pos=0.47s, Media.Opacity=1.00, openId=7
+[15:44:33.630] [I1] [Pos→0] pos=0.48s, Media.Opacity=1.00, openId=7
+[15:44:33.638] [I1] [Pos→0] pos=0.48s, Media.Opacity=1.00, openId=7
+[15:44:33.647] [I1] [Pos→0] pos=0.49s, Media.Opacity=1.00, openId=7
+[15:44:33.693] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=7, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=0.5s
+[15:44:34.696] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=7, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=1.5s
+[15:44:35.701] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=7, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=2.5s
+[15:44:36.695] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=7, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=3.5s
+[15:44:36.715] [I1] [Change #12] Start → null, prevOpenId=7
+[15:44:36.716] [I1] [Change #12] Lock acquired, IsOpen=True
+[15:44:36.716] [I1] [Change #12] Closing media
+[15:44:36.848] [I1] [Pos→0] pos=0.00s, Media.Opacity=0.00, openId=0
+[15:44:36.853] [I1] [StateChanged] → Close, openId=0
+[15:44:36.888] [I1] [Change #12] Media closed + dispatcher drained
+[15:44:36.891] [I1] [Change #12] Lock released
+[15:52:11.524] [I2] [Init] Instance created, timer started
+[15:52:12.521] [I2] [Heartbeat] Opacity=0.00, PosterOpacity=1.00, PosterHasSrc=True, openId=0, IsOpen=False, HasVideo=False, IsPlaying=False, Pos=0.0s
+[15:52:13.521] [I2] [Heartbeat] Opacity=0.00, PosterOpacity=1.00, PosterHasSrc=True, openId=0, IsOpen=False, HasVideo=False, IsPlaying=False, Pos=0.0s
+[15:52:14.523] [I2] [Heartbeat] Opacity=0.00, PosterOpacity=1.00, PosterHasSrc=True, openId=0, IsOpen=False, HasVideo=False, IsPlaying=False, Pos=0.0s
+[15:52:25.928] [I2] [Heartbeat] Opacity=0.00, PosterOpacity=1.00, PosterHasSrc=True, openId=0, IsOpen=False, HasVideo=False, IsPlaying=False, Pos=0.0s
+[15:52:26.071] [I2] [Change #1] Start → community_1773_preview.mp4, prevOpenId=0
+[15:52:26.072] [I2] [Change #1] Lock acquired, IsOpen=False
+[15:52:26.072] [I2] [Change #1] openId=2 assigned, opening community_1773_preview.mp4
+[15:52:26.088] [I2] [StateChanged] → Stop, openId=2
+[15:52:26.088] [I2] [Change #1] Open done, openId=2, IsOpen=True, HasVideo=True
+[15:52:26.088] [I2] [Change #1] Safety Play(), openId=2
+[15:52:26.088] [I2] [Change #1] Lock released
+[15:52:26.089] [I2] [MediaOpened] capturedId=2, current=2
+[15:52:26.111] [I2] [StateChanged] → Play, openId=2
+[15:52:26.203] [I2] [Pos→0] pos=0.00s, Media.Opacity=0.00, openId=2
+[15:52:26.204] [I2] [Pos→0] pos=0.01s, Media.Opacity=0.00, openId=2
+[15:52:26.206] [I2] [Pos→0] pos=0.02s, Media.Opacity=0.00, openId=2
+[15:52:26.219] [I2] [Pos→0] pos=0.03s, Media.Opacity=0.00, openId=2
+[15:52:26.225] [I2] [Pos→0] pos=0.03s, Media.Opacity=0.00, openId=2
+[15:52:26.235] [I2] [Pos→0] pos=0.04s, Media.Opacity=0.00, openId=2
+[15:52:26.240] [I2] [MediaOpened] Starting fade transition, openId=2, currentOpacity=0.00
+[15:52:26.243] [I2] [Pos→0] pos=0.05s, Media.Opacity=0.00, openId=2
+[15:52:26.256] [I2] [Pos→0] pos=0.06s, Media.Opacity=0.00, openId=2
+[15:52:26.259] [I2] [Pos→0] pos=0.07s, Media.Opacity=0.00, openId=2
+[15:52:26.273] [I2] [Pos→0] pos=0.08s, Media.Opacity=0.19, openId=2
+[15:52:26.275] [I2] [Pos→0] pos=0.08s, Media.Opacity=0.19, openId=2
+[15:52:26.285] [I2] [Pos→0] pos=0.09s, Media.Opacity=0.25, openId=2
+[15:52:26.294] [I2] [Pos→0] pos=0.10s, Media.Opacity=0.31, openId=2
+[15:52:26.309] [I2] [Pos→0] pos=0.12s, Media.Opacity=0.36, openId=2
+[15:52:26.320] [I2] [Pos→0] pos=0.13s, Media.Opacity=0.51, openId=2
+[15:52:26.324] [I2] [Pos→0] pos=0.13s, Media.Opacity=0.51, openId=2
+[15:52:26.342] [I2] [Pos→0] pos=0.15s, Media.Opacity=0.56, openId=2
+[15:52:26.351] [I2] [Pos→0] pos=0.16s, Media.Opacity=0.64, openId=2
+[15:52:26.359] [I2] [Pos→0] pos=0.17s, Media.Opacity=0.68, openId=2
+[15:52:26.374] [I2] [Pos→0] pos=0.18s, Media.Opacity=0.72, openId=2
+[15:52:26.387] [I2] [Pos→0] pos=0.20s, Media.Opacity=0.78, openId=2
+[15:52:26.393] [I2] [Pos→0] pos=0.20s, Media.Opacity=0.81, openId=2
+[15:52:26.405] [I2] [Pos→0] pos=0.21s, Media.Opacity=0.87, openId=2
+[15:52:26.407] [I2] [Pos→0] pos=0.22s, Media.Opacity=0.87, openId=2
+[15:52:26.422] [I2] [Pos→0] pos=0.23s, Media.Opacity=0.91, openId=2
+[15:52:26.424] [I2] [Pos→0] pos=0.23s, Media.Opacity=0.91, openId=2
+[15:52:26.439] [I2] [Pos→0] pos=0.25s, Media.Opacity=0.93, openId=2
+[15:52:26.441] [I2] [Pos→0] pos=0.25s, Media.Opacity=0.96, openId=2
+[15:52:26.456] [I2] [Pos→0] pos=0.26s, Media.Opacity=0.96, openId=2
+[15:52:26.457] [I2] [Pos→0] pos=0.27s, Media.Opacity=0.96, openId=2
+[15:52:26.467] [I2] [Pos→0] pos=0.28s, Media.Opacity=0.98, openId=2
+[15:52:26.473] [I2] [Pos→0] pos=0.28s, Media.Opacity=0.99, openId=2
+[15:52:26.491] [I2] [Pos→0] pos=0.29s, Media.Opacity=1.00, openId=2
+[15:52:26.492] [I2] [Pos→0] pos=0.30s, Media.Opacity=1.00, openId=2
+[15:52:26.504] [I2] [Pos→0] pos=0.31s, Media.Opacity=1.00, openId=2
+[15:52:26.505] [I2] [FadeIn.Completed] Media Opacity=1 baked, openId=2
+[15:52:26.505] [I2] [FadeOut.Completed] Poster cleared, openId=2
+[15:52:26.509] [I2] [Pos→0] pos=0.32s, Media.Opacity=1.00, openId=2
+[15:52:26.521] [I2] [Pos→0] pos=0.33s, Media.Opacity=1.00, openId=2
+[15:52:26.523] [I2] [Pos→0] pos=0.33s, Media.Opacity=1.00, openId=2
+[15:52:26.536] [I2] [Pos→0] pos=0.34s, Media.Opacity=1.00, openId=2
+[15:52:26.542] [I2] [Pos→0] pos=0.35s, Media.Opacity=1.00, openId=2
+[15:52:26.566] [I2] [Pos→0] pos=0.37s, Media.Opacity=1.00, openId=2
+[15:52:26.567] [I2] [Pos→0] pos=0.38s, Media.Opacity=1.00, openId=2
+[15:52:26.573] [I2] [Pos→0] pos=0.38s, Media.Opacity=1.00, openId=2
+[15:52:26.590] [I2] [Pos→0] pos=0.40s, Media.Opacity=1.00, openId=2
+[15:52:26.591] [I2] [Pos→0] pos=0.40s, Media.Opacity=1.00, openId=2
+[15:52:26.605] [I2] [Pos→0] pos=0.41s, Media.Opacity=1.00, openId=2
+[15:52:26.610] [I2] [Pos→0] pos=0.42s, Media.Opacity=1.00, openId=2
+[15:52:26.618] [I2] [Pos→0] pos=0.43s, Media.Opacity=1.00, openId=2
+[15:52:26.623] [I2] [Pos→0] pos=0.43s, Media.Opacity=1.00, openId=2
+[15:52:26.638] [I2] [Pos→0] pos=0.44s, Media.Opacity=1.00, openId=2
+[15:52:26.641] [I2] [Pos→0] pos=0.45s, Media.Opacity=1.00, openId=2
+[15:52:26.655] [I2] [Pos→0] pos=0.46s, Media.Opacity=1.00, openId=2
+[15:52:26.658] [I2] [Pos→0] pos=0.47s, Media.Opacity=1.00, openId=2
+[15:52:26.672] [I2] [Pos→0] pos=0.48s, Media.Opacity=1.00, openId=2
+[15:52:26.674] [I2] [Pos→0] pos=0.48s, Media.Opacity=1.00, openId=2
+[15:52:26.683] [I2] [Pos→0] pos=0.49s, Media.Opacity=1.00, openId=2
+[15:52:26.702] [I2] [Pos→0] pos=0.50s, Media.Opacity=1.00, openId=2
+[15:52:26.940] [I2] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=0.7s
+[15:52:27.943] [I2] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=1.7s
+[15:52:29.024] [I2] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=2.8s
+[15:52:29.305] [I2] [StateChanged] → Pause, openId=0
+[15:52:34.976] [I2] [Change #2] Start → null, prevOpenId=0
+[15:52:34.978] [I2] [Change #2] Lock acquired, IsOpen=True
+[15:52:34.979] [I2] [Change #2] Closing media
+[15:52:35.046] [I2] [Pos→0] pos=0.00s, Media.Opacity=0.00, openId=0
+[15:52:35.069] [I2] [StateChanged] → Close, openId=0
+[15:52:35.073] [I2] [Change #2] Media closed + dispatcher drained
+[15:52:35.074] [I2] [Change #2] Lock released
+[15:52:36.046] [I2] [Heartbeat] Opacity=0.00, PosterOpacity=1.00, PosterHasSrc=True, openId=0, IsOpen=False, HasVideo=False, IsPlaying=False, Pos=0.0s
+[15:52:36.242] [I2] [Change #3] Start → community_1746_preview.mp4, prevOpenId=0
+[15:52:36.243] [I2] [Change #3] Lock acquired, IsOpen=False
+[15:52:36.243] [I2] [Change #3] openId=3 assigned, opening community_1746_preview.mp4
+[15:52:36.266] [I2] [Change #3] Open done, openId=3, IsOpen=True, HasVideo=True
+[15:52:36.267] [I2] [Change #3] Safety Play(), openId=3
+[15:52:36.268] [I2] [Change #3] Lock released
+[15:52:36.269] [I2] [StateChanged] → Stop, openId=3
+[15:52:36.271] [I2] [MediaOpened] capturedId=3, current=3
+[15:52:36.285] [I2] [StateChanged] → Play, openId=3
+[15:52:36.357] [I2] [Pos→0] pos=0.00s, Media.Opacity=0.00, openId=3
+[15:52:36.361] [I2] [Pos→0] pos=0.01s, Media.Opacity=0.00, openId=3
+[15:52:36.384] [I2] [Pos→0] pos=0.03s, Media.Opacity=0.00, openId=3
+[15:52:36.402] [I2] [Pos→0] pos=0.04s, Media.Opacity=0.00, openId=3
+[15:52:36.403] [I2] [Pos→0] pos=0.04s, Media.Opacity=0.00, openId=3
+[15:52:36.406] [I2] [Pos→0] pos=0.05s, Media.Opacity=0.00, openId=3
+[15:52:36.413] [I2] [Pos→0] pos=0.06s, Media.Opacity=0.00, openId=3
+[15:52:36.428] [I2] [Pos→0] pos=0.08s, Media.Opacity=0.00, openId=3
+[15:52:36.431] [I2] [MediaOpened] Starting fade transition, openId=3, currentOpacity=0.00
+[15:52:36.446] [I2] [Pos→0] pos=0.09s, Media.Opacity=0.07, openId=3
+[15:52:36.447] [I2] [Pos→0] pos=0.10s, Media.Opacity=0.07, openId=3
+[15:52:36.457] [I2] [Pos→0] pos=0.11s, Media.Opacity=0.19, openId=3
+[15:52:36.463] [I2] [Pos→0] pos=0.11s, Media.Opacity=0.19, openId=3
+[15:52:36.476] [I2] [Pos→0] pos=0.12s, Media.Opacity=0.31, openId=3
+[15:52:36.478] [I2] [Pos→0] pos=0.13s, Media.Opacity=0.31, openId=3
+[15:52:36.494] [I2] [Pos→0] pos=0.14s, Media.Opacity=0.41, openId=3
+[15:52:36.497] [I2] [Pos→0] pos=0.15s, Media.Opacity=0.41, openId=3
+[15:52:36.506] [I2] [Pos→0] pos=0.15s, Media.Opacity=0.51, openId=3
+[15:52:36.513] [I2] [Pos→0] pos=0.16s, Media.Opacity=0.51, openId=3
+[15:52:36.528] [I2] [Pos→0] pos=0.18s, Media.Opacity=0.56, openId=3
+[15:52:36.528] [I2] [Pos→0] pos=0.18s, Media.Opacity=0.56, openId=3
+[15:52:36.547] [I2] [Pos→0] pos=0.20s, Media.Opacity=0.64, openId=3
+[15:52:36.555] [I2] [Pos→0] pos=0.20s, Media.Opacity=0.72, openId=3
+[15:52:36.561] [I2] [Pos→0] pos=0.21s, Media.Opacity=0.75, openId=3
+[15:52:36.573] [I2] [Pos→0] pos=0.22s, Media.Opacity=0.78, openId=3
+[15:52:36.579] [I2] [Pos→0] pos=0.23s, Media.Opacity=0.81, openId=3
+[15:52:36.591] [I2] [Pos→0] pos=0.24s, Media.Opacity=0.87, openId=3
+[15:52:36.599] [I2] [Pos→0] pos=0.24s, Media.Opacity=0.87, openId=3
+[15:52:36.609] [I2] [Pos→0] pos=0.26s, Media.Opacity=0.91, openId=3
+[15:52:36.613] [I2] [Pos→0] pos=0.26s, Media.Opacity=0.91, openId=3
+[15:52:36.629] [I2] [Pos→0] pos=0.27s, Media.Opacity=0.95, openId=3
+[15:52:36.631] [I2] [Pos→0] pos=0.28s, Media.Opacity=0.95, openId=3
+[15:52:36.641] [I2] [Pos→0] pos=0.29s, Media.Opacity=0.97, openId=3
+[15:52:36.645] [I2] [Pos→0] pos=0.29s, Media.Opacity=0.97, openId=3
+[15:52:36.661] [I2] [Pos→0] pos=0.31s, Media.Opacity=0.99, openId=3
+[15:52:36.676] [I2] [Pos→0] pos=0.32s, Media.Opacity=1.00, openId=3
+[15:52:36.678] [I2] [Pos→0] pos=0.33s, Media.Opacity=1.00, openId=3
+[15:52:36.688] [I2] [FadeIn.Completed] Media Opacity=1 baked, openId=3
+[15:52:36.688] [I2] [FadeOut.Completed] Poster cleared, openId=3
+[15:52:36.693] [I2] [Pos→0] pos=0.34s, Media.Opacity=1.00, openId=3
+[15:52:36.695] [I2] [Pos→0] pos=0.34s, Media.Opacity=1.00, openId=3
+[15:52:36.710] [I2] [Pos→0] pos=0.36s, Media.Opacity=1.00, openId=3
+[15:52:36.711] [I2] [Pos→0] pos=0.36s, Media.Opacity=1.00, openId=3
+[15:52:36.724] [I2] [Pos→0] pos=0.37s, Media.Opacity=1.00, openId=3
+[15:52:36.729] [I2] [Pos→0] pos=0.38s, Media.Opacity=1.00, openId=3
+[15:52:36.740] [I2] [Pos→0] pos=0.39s, Media.Opacity=1.00, openId=3
+[15:52:36.746] [I2] [Pos→0] pos=0.39s, Media.Opacity=1.00, openId=3
+[15:52:36.756] [I2] [Pos→0] pos=0.40s, Media.Opacity=1.00, openId=3
+[15:52:36.765] [I2] [Pos→0] pos=0.41s, Media.Opacity=1.00, openId=3
+[15:52:36.772] [I2] [Pos→0] pos=0.42s, Media.Opacity=1.00, openId=3
+[15:52:36.778] [I2] [Pos→0] pos=0.43s, Media.Opacity=1.00, openId=3
+[15:52:36.794] [I2] [Pos→0] pos=0.44s, Media.Opacity=1.00, openId=3
+[15:52:36.795] [I2] [Pos→0] pos=0.44s, Media.Opacity=1.00, openId=3
+[15:52:36.809] [I2] [Pos→0] pos=0.46s, Media.Opacity=1.00, openId=3
+[15:52:36.816] [I2] [Pos→0] pos=0.46s, Media.Opacity=1.00, openId=3
+[15:52:36.821] [I2] [Pos→0] pos=0.47s, Media.Opacity=1.00, openId=3
+[15:52:36.831] [I2] [Pos→0] pos=0.48s, Media.Opacity=1.00, openId=3
+[15:52:36.849] [I2] [Pos→0] pos=0.50s, Media.Opacity=1.00, openId=3
+[15:52:37.044] [I2] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=3, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=0.7s
+[15:52:38.045] [I2] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=3, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=1.7s
+[15:52:39.080] [I2] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=3, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=2.7s
+[15:52:40.073] [I2] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=3, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=3.7s
+[15:52:41.163] [I2] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=3, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=4.8s
+[15:52:42.209] [I2] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=3, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=5.9s
+[15:52:43.009] [I2] [StateChanged] → Stop, openId=3
+[15:52:43.032] [I2] [MediaEnded] openId=3, Media.Opacity=1.00, Pos=6.65s → LoopingBehavior will Stop+Seek(0)+Play
+[15:52:43.084] [I2] [Pos→0] pos=0.00s, Media.Opacity=1.00, openId=3
+[15:52:43.226] [I2] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=3, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=0.0s
+[15:52:43.277] [I2] [StateChanged] → Play, openId=3
+[15:52:43.284] [I2] [Pos→0] pos=0.00s, Media.Opacity=1.00, openId=3
+[15:52:43.295] [I2] [Pos→0] pos=0.01s, Media.Opacity=1.00, openId=3
+[15:52:43.305] [I2] [Pos→0] pos=0.02s, Media.Opacity=1.00, openId=3
+[15:52:43.310] [I2] [Pos→0] pos=0.03s, Media.Opacity=1.00, openId=3
+[15:52:43.320] [I2] [Pos→0] pos=0.04s, Media.Opacity=1.00, openId=3
+[15:52:43.326] [I2] [Pos→0] pos=0.04s, Media.Opacity=1.00, openId=3
+[15:52:43.338] [I2] [Pos→0] pos=0.06s, Media.Opacity=1.00, openId=3
+[15:52:43.344] [I2] [Pos→0] pos=0.06s, Media.Opacity=1.00, openId=3
+[15:52:43.370] [I2] [Pos→0] pos=0.09s, Media.Opacity=1.00, openId=3
+[15:52:43.370] [I2] [Pos→0] pos=0.09s, Media.Opacity=1.00, openId=3
+[15:52:43.377] [I2] [Pos→0] pos=0.09s, Media.Opacity=1.00, openId=3
+[15:52:43.393] [I2] [Pos→0] pos=0.11s, Media.Opacity=1.00, openId=3
+[15:52:43.394] [I2] [Pos→0] pos=0.11s, Media.Opacity=1.00, openId=3
+[15:52:43.412] [I2] [Pos→0] pos=0.13s, Media.Opacity=1.00, openId=3
+[15:52:43.420] [I2] [Pos→0] pos=0.14s, Media.Opacity=1.00, openId=3
+[15:52:43.426] [I2] [Pos→0] pos=0.14s, Media.Opacity=1.00, openId=3
+[15:52:43.442] [I2] [Pos→0] pos=0.16s, Media.Opacity=1.00, openId=3
+[15:52:43.443] [I2] [Pos→0] pos=0.16s, Media.Opacity=1.00, openId=3
+[15:52:43.458] [I2] [Pos→0] pos=0.17s, Media.Opacity=1.00, openId=3
+[15:52:43.460] [I2] [Pos→0] pos=0.18s, Media.Opacity=1.00, openId=3
+[15:52:43.470] [I2] [Pos→0] pos=0.19s, Media.Opacity=1.00, openId=3
+[15:52:43.481] [I2] [Pos→0] pos=0.19s, Media.Opacity=1.00, openId=3
+[15:52:43.492] [I2] [Pos→0] pos=0.21s, Media.Opacity=1.00, openId=3
+[15:52:43.493] [I2] [Pos→0] pos=0.21s, Media.Opacity=1.00, openId=3
+[15:52:43.507] [I2] [Pos→0] pos=0.22s, Media.Opacity=1.00, openId=3
+[15:52:43.512] [I2] [Pos→0] pos=0.23s, Media.Opacity=1.00, openId=3
+[15:52:43.521] [I2] [Pos→0] pos=0.24s, Media.Opacity=1.00, openId=3
+[15:52:43.529] [I2] [Pos→0] pos=0.25s, Media.Opacity=1.00, openId=3
+[15:52:43.540] [I2] [Pos→0] pos=0.26s, Media.Opacity=1.00, openId=3
+[15:52:43.544] [I2] [Pos→0] pos=0.26s, Media.Opacity=1.00, openId=3
+[15:52:43.558] [I2] [Pos→0] pos=0.28s, Media.Opacity=1.00, openId=3
+[15:52:43.560] [I2] [Pos→0] pos=0.28s, Media.Opacity=1.00, openId=3
+[15:52:43.573] [I2] [Pos→0] pos=0.29s, Media.Opacity=1.00, openId=3
+[15:52:43.576] [I2] [Pos→0] pos=0.29s, Media.Opacity=1.00, openId=3
+[15:52:43.588] [I2] [Pos→0] pos=0.31s, Media.Opacity=1.00, openId=3
+[15:52:43.592] [I2] [Pos→0] pos=0.31s, Media.Opacity=1.00, openId=3
+[15:52:43.610] [I2] [Pos→0] pos=0.33s, Media.Opacity=1.00, openId=3
+[15:52:43.636] [I2] [Pos→0] pos=0.35s, Media.Opacity=1.00, openId=3
+[15:52:43.637] [I2] [Pos→0] pos=0.35s, Media.Opacity=1.00, openId=3
+[15:52:43.651] [I2] [Pos→0] pos=0.36s, Media.Opacity=1.00, openId=3
+[15:52:43.655] [I2] [Pos→0] pos=0.37s, Media.Opacity=1.00, openId=3
+[15:52:43.661] [I2] [Pos→0] pos=0.38s, Media.Opacity=1.00, openId=3
+[15:52:43.670] [I2] [Pos→0] pos=0.39s, Media.Opacity=1.00, openId=3
+[15:52:43.715] [I2] [Pos→0] pos=0.39s, Media.Opacity=1.00, openId=3
+[15:52:43.721] [I2] [Pos→0] pos=0.43s, Media.Opacity=1.00, openId=3
+[15:52:43.722] [I2] [Pos→0] pos=0.44s, Media.Opacity=1.00, openId=3
+[15:52:43.728] [I2] [Pos→0] pos=0.45s, Media.Opacity=1.00, openId=3
+[15:52:43.736] [I2] [Pos→0] pos=0.45s, Media.Opacity=1.00, openId=3
+[15:52:43.742] [I2] [Pos→0] pos=0.46s, Media.Opacity=1.00, openId=3
+[15:52:43.752] [I2] [Pos→0] pos=0.47s, Media.Opacity=1.00, openId=3
+[15:52:43.759] [I2] [Pos→0] pos=0.48s, Media.Opacity=1.00, openId=3
+[15:52:43.769] [I2] [Pos→0] pos=0.49s, Media.Opacity=1.00, openId=3
+[15:52:43.778] [I2] [Pos→0] pos=0.50s, Media.Opacity=1.00, openId=3
+[15:52:44.225] [I2] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=3, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=0.9s
+[15:52:45.238] [I2] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=3, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=1.9s
+[15:52:46.245] [I2] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=3, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=3.0s
+[15:52:48.478] [I2] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=3, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=5.2s
+[15:52:49.950] [I2] [StateChanged] → Stop, openId=3
+[15:52:49.967] [I2] [MediaEnded] openId=3, Media.Opacity=1.00, Pos=6.65s → LoopingBehavior will Stop+Seek(0)+Play
+[15:52:49.996] [I2] [Pos→0] pos=0.00s, Media.Opacity=1.00, openId=3
+[15:52:50.086] [I2] [StateChanged] → Play, openId=3
+[15:52:50.116] [I2] [Pos→0] pos=0.01s, Media.Opacity=1.00, openId=3
+[15:52:50.128] [I2] [Pos→0] pos=0.03s, Media.Opacity=1.00, openId=3
+[15:52:50.134] [I2] [Pos→0] pos=0.03s, Media.Opacity=1.00, openId=3
+[15:52:50.171] [I2] [Pos→0] pos=0.06s, Media.Opacity=1.00, openId=3
+[15:52:50.173] [I2] [Pos→0] pos=0.07s, Media.Opacity=1.00, openId=3
+[15:52:50.204] [I2] [Pos→0] pos=0.10s, Media.Opacity=1.00, openId=3
+[15:52:50.207] [I2] [Pos→0] pos=0.10s, Media.Opacity=1.00, openId=3
+[15:52:50.240] [I2] [Pos→0] pos=0.13s, Media.Opacity=1.00, openId=3
+[15:52:50.248] [I2] [Pos→0] pos=0.14s, Media.Opacity=1.00, openId=3
+[15:52:50.252] [I2] [Pos→0] pos=0.15s, Media.Opacity=1.00, openId=3
+[15:52:50.268] [I2] [Pos→0] pos=0.15s, Media.Opacity=1.00, openId=3
+[15:52:50.273] [I2] [Pos→0] pos=0.17s, Media.Opacity=1.00, openId=3
+[15:52:50.287] [I2] [Pos→0] pos=0.19s, Media.Opacity=1.00, openId=3
+[15:52:50.329] [I2] [Pos→0] pos=0.21s, Media.Opacity=1.00, openId=3
+[15:52:50.341] [I2] [Pos→0] pos=0.23s, Media.Opacity=1.00, openId=3
+[15:52:50.349] [I2] [Pos→0] pos=0.24s, Media.Opacity=1.00, openId=3
+[15:52:50.366] [I2] [Pos→0] pos=0.26s, Media.Opacity=1.00, openId=3
+[15:52:50.378] [I2] [Pos→0] pos=0.28s, Media.Opacity=1.00, openId=3
+[15:52:50.432] [I2] [Pos→0] pos=0.30s, Media.Opacity=1.00, openId=3
+[15:52:50.437] [I2] [Pos→0] pos=0.32s, Media.Opacity=1.00, openId=3
+[15:52:50.440] [I2] [Pos→0] pos=0.33s, Media.Opacity=1.00, openId=3
+[15:52:50.446] [I2] [Pos→0] pos=0.33s, Media.Opacity=1.00, openId=3
+[15:52:50.453] [I2] [Pos→0] pos=0.35s, Media.Opacity=1.00, openId=3
+[15:52:50.467] [I2] [Pos→0] pos=0.37s, Media.Opacity=1.00, openId=3
+[15:52:50.500] [I2] [Pos→0] pos=0.39s, Media.Opacity=1.00, openId=3
+[15:52:50.505] [I2] [Pos→0] pos=0.40s, Media.Opacity=1.00, openId=3
+[15:52:50.513] [I2] [Pos→0] pos=0.40s, Media.Opacity=1.00, openId=3
+[15:52:50.516] [I2] [Pos→0] pos=0.41s, Media.Opacity=1.00, openId=3
+[15:52:50.522] [I2] [Pos→0] pos=0.42s, Media.Opacity=1.00, openId=3
+[15:52:50.536] [I2] [Pos→0] pos=0.43s, Media.Opacity=1.00, openId=3
+[15:52:50.570] [I2] [Pos→0] pos=0.46s, Media.Opacity=1.00, openId=3
+[15:52:50.574] [I2] [Pos→0] pos=0.47s, Media.Opacity=1.00, openId=3
+[15:52:50.599] [I2] [Pos→0] pos=0.48s, Media.Opacity=1.00, openId=3
+[15:52:50.605] [I2] [Pos→0] pos=0.50s, Media.Opacity=1.00, openId=3
+[15:52:50.619] [I2] [Pos→0] pos=0.50s, Media.Opacity=1.00, openId=3
+[15:52:56.766] [I2] [StateChanged] → Stop, openId=3
+[15:52:56.769] [I2] [MediaEnded] openId=3, Media.Opacity=1.00, Pos=6.65s → LoopingBehavior will Stop+Seek(0)+Play
+[15:52:56.799] [I2] [Pos→0] pos=0.00s, Media.Opacity=1.00, openId=3
+[15:52:56.910] [I2] [StateChanged] → Play, openId=3
+[15:52:56.923] [I2] [Pos→0] pos=0.00s, Media.Opacity=1.00, openId=3
+[15:52:56.933] [I2] [Pos→0] pos=0.01s, Media.Opacity=1.00, openId=3
+[15:52:56.992] [I2] [Pos→0] pos=0.03s, Media.Opacity=1.00, openId=3
+[15:52:56.996] [I2] [Pos→0] pos=0.09s, Media.Opacity=1.00, openId=3
+[15:52:57.047] [I2] [Pos→0] pos=0.11s, Media.Opacity=1.00, openId=3
+[15:52:57.060] [I2] [Pos→0] pos=0.13s, Media.Opacity=1.00, openId=3
+[15:52:57.061] [I2] [Pos→0] pos=0.14s, Media.Opacity=1.00, openId=3
+[15:52:57.062] [I2] [Pos→0] pos=0.15s, Media.Opacity=1.00, openId=3
+[15:52:57.096] [I2] [Pos→0] pos=0.18s, Media.Opacity=1.00, openId=3
+[15:52:57.104] [I2] [Pos→0] pos=0.19s, Media.Opacity=1.00, openId=3
+[15:52:57.118] [I2] [Pos→0] pos=0.19s, Media.Opacity=1.00, openId=3
+[15:52:57.122] [I2] [Pos→0] pos=0.21s, Media.Opacity=1.00, openId=3
+[15:52:57.134] [I2] [Pos→0] pos=0.23s, Media.Opacity=1.00, openId=3
+[15:52:57.151] [I2] [Pos→0] pos=0.24s, Media.Opacity=1.00, openId=3
+[15:52:57.183] [I2] [Pos→0] pos=0.27s, Media.Opacity=1.00, openId=3
+[15:52:57.187] [I2] [Pos→0] pos=0.28s, Media.Opacity=1.00, openId=3
+[15:52:57.218] [I2] [Pos→0] pos=0.30s, Media.Opacity=1.00, openId=3
+[15:52:57.223] [I2] [Pos→0] pos=0.31s, Media.Opacity=1.00, openId=3
+[15:52:57.238] [I2] [Pos→0] pos=0.31s, Media.Opacity=1.00, openId=3
+[15:52:57.253] [I2] [Pos→0] pos=0.33s, Media.Opacity=1.00, openId=3
+[15:52:57.256] [I2] [Pos→0] pos=0.35s, Media.Opacity=1.00, openId=3
+[15:52:57.267] [I2] [Pos→0] pos=0.36s, Media.Opacity=1.00, openId=3
+[15:52:57.271] [I2] [Pos→0] pos=0.36s, Media.Opacity=1.00, openId=3
+[15:52:57.284] [I2] [Pos→0] pos=0.38s, Media.Opacity=1.00, openId=3
+[15:52:57.322] [I2] [Pos→0] pos=0.41s, Media.Opacity=1.00, openId=3
+[15:52:57.325] [I2] [Pos→0] pos=0.42s, Media.Opacity=1.00, openId=3
+[15:52:57.331] [I2] [Pos→0] pos=0.43s, Media.Opacity=1.00, openId=3
+[15:52:57.352] [I2] [Pos→0] pos=0.45s, Media.Opacity=1.00, openId=3
+[15:52:57.364] [I2] [Pos→0] pos=0.46s, Media.Opacity=1.00, openId=3
+[15:52:57.390] [I2] [Pos→0] pos=0.48s, Media.Opacity=1.00, openId=3
+[15:52:57.417] [I2] [Pos→0] pos=0.49s, Media.Opacity=1.00, openId=3
+[15:53:02.874] [I2] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=3, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=6.0s
+[15:53:03.567] [I2] [StateChanged] → Stop, openId=3
+[15:53:03.567] [I2] [MediaEnded] openId=3, Media.Opacity=1.00, Pos=6.64s → LoopingBehavior will Stop+Seek(0)+Play
+[15:53:03.596] [I2] [Pos→0] pos=0.00s, Media.Opacity=1.00, openId=3
+[15:53:03.943] [I2] [StateChanged] → Play, openId=3
+[15:53:03.962] [I2] [Pos→0] pos=0.01s, Media.Opacity=1.00, openId=3
+[15:53:03.973] [I2] [Pos→0] pos=0.01s, Media.Opacity=1.00, openId=3
+[15:53:03.983] [I2] [Pos→0] pos=0.02s, Media.Opacity=1.00, openId=3
+[15:53:03.989] [I2] [Pos→0] pos=0.03s, Media.Opacity=1.00, openId=3
+[15:53:03.998] [I2] [Pos→0] pos=0.04s, Media.Opacity=1.00, openId=3
+[15:53:04.004] [I2] [Pos→0] pos=0.05s, Media.Opacity=1.00, openId=3
+[15:53:04.016] [I2] [Pos→0] pos=0.06s, Media.Opacity=1.00, openId=3
+[15:53:04.020] [I2] [Pos→0] pos=0.06s, Media.Opacity=1.00, openId=3
+[15:53:04.032] [I2] [Pos→0] pos=0.07s, Media.Opacity=1.00, openId=3
+[15:53:04.041] [I2] [Pos→0] pos=0.08s, Media.Opacity=1.00, openId=3
+[15:53:04.051] [I2] [Pos→0] pos=0.09s, Media.Opacity=1.00, openId=3
+[15:53:04.066] [I2] [Pos→0] pos=0.10s, Media.Opacity=1.00, openId=3
+[15:53:04.067] [I2] [Pos→0] pos=0.11s, Media.Opacity=1.00, openId=3
+[15:53:04.071] [I2] [Pos→0] pos=0.11s, Media.Opacity=1.00, openId=3
+[15:53:04.081] [I2] [Pos→0] pos=0.12s, Media.Opacity=1.00, openId=3
+[15:53:04.089] [I2] [Pos→0] pos=0.13s, Media.Opacity=1.00, openId=3
+[15:53:04.099] [I2] [Pos→0] pos=0.14s, Media.Opacity=1.00, openId=3
+[15:53:04.103] [I2] [Pos→0] pos=0.15s, Media.Opacity=1.00, openId=3
+[15:53:04.116] [I2] [Pos→0] pos=0.16s, Media.Opacity=1.00, openId=3
+[15:53:04.121] [I2] [Pos→0] pos=0.16s, Media.Opacity=1.00, openId=3
+[15:53:04.131] [I2] [Pos→0] pos=0.17s, Media.Opacity=1.00, openId=3
+[15:53:04.139] [I2] [Pos→0] pos=0.18s, Media.Opacity=1.00, openId=3
+[15:53:04.147] [I2] [Pos→0] pos=0.19s, Media.Opacity=1.00, openId=3
+[15:53:04.155] [I2] [Pos→0] pos=0.20s, Media.Opacity=1.00, openId=3
+[15:53:04.162] [I2] [Pos→0] pos=0.21s, Media.Opacity=1.00, openId=3
+[15:53:04.170] [I2] [Pos→0] pos=0.21s, Media.Opacity=1.00, openId=3
+[15:53:04.179] [I2] [Pos→0] pos=0.22s, Media.Opacity=1.00, openId=3
+[15:53:04.188] [I2] [Pos→0] pos=0.23s, Media.Opacity=1.00, openId=3
+[15:53:04.196] [I2] [Pos→0] pos=0.24s, Media.Opacity=1.00, openId=3
+[15:53:04.203] [I2] [Pos→0] pos=0.25s, Media.Opacity=1.00, openId=3
+[15:53:04.216] [I2] [Pos→0] pos=0.26s, Media.Opacity=1.00, openId=3
+[15:53:04.220] [I2] [Pos→0] pos=0.26s, Media.Opacity=1.00, openId=3
+[15:53:04.232] [I2] [Pos→0] pos=0.27s, Media.Opacity=1.00, openId=3
+[15:53:04.238] [I2] [Pos→0] pos=0.28s, Media.Opacity=1.00, openId=3
+[15:53:04.248] [I2] [Pos→0] pos=0.29s, Media.Opacity=1.00, openId=3
+[15:53:04.254] [I2] [Pos→0] pos=0.30s, Media.Opacity=1.00, openId=3
+[15:53:04.264] [I2] [Pos→0] pos=0.31s, Media.Opacity=1.00, openId=3
+[15:53:04.270] [I2] [Pos→0] pos=0.31s, Media.Opacity=1.00, openId=3
+[15:53:04.281] [I2] [Pos→0] pos=0.32s, Media.Opacity=1.00, openId=3
+[15:53:04.290] [I2] [Pos→0] pos=0.33s, Media.Opacity=1.00, openId=3
+[15:53:04.297] [I2] [Pos→0] pos=0.34s, Media.Opacity=1.00, openId=3
+[15:53:04.305] [I2] [Pos→0] pos=0.35s, Media.Opacity=1.00, openId=3
+[15:53:04.312] [I2] [Pos→0] pos=0.36s, Media.Opacity=1.00, openId=3
+[15:53:04.323] [I2] [Pos→0] pos=0.36s, Media.Opacity=1.00, openId=3
+[15:53:04.332] [I2] [Pos→0] pos=0.37s, Media.Opacity=1.00, openId=3
+[15:53:04.337] [I2] [Pos→0] pos=0.38s, Media.Opacity=1.00, openId=3
+[15:53:04.349] [I2] [Pos→0] pos=0.39s, Media.Opacity=1.00, openId=3
+[15:53:04.386] [I2] [Pos→0] pos=0.40s, Media.Opacity=1.00, openId=3
+[15:53:04.387] [I2] [Pos→0] pos=0.43s, Media.Opacity=1.00, openId=3
+[15:53:04.387] [I2] [Pos→0] pos=0.43s, Media.Opacity=1.00, openId=3
+[15:53:04.388] [I2] [Pos→0] pos=0.43s, Media.Opacity=1.00, openId=3
+[15:53:04.398] [I2] [Pos→0] pos=0.44s, Media.Opacity=1.00, openId=3
+[15:53:04.403] [I2] [Pos→0] pos=0.45s, Media.Opacity=1.00, openId=3
+[15:53:04.413] [I2] [Pos→0] pos=0.46s, Media.Opacity=1.00, openId=3
+[15:53:04.422] [I2] [Pos→0] pos=0.47s, Media.Opacity=1.00, openId=3
+[15:53:04.433] [I2] [Pos→0] pos=0.47s, Media.Opacity=1.00, openId=3
+[15:53:04.438] [I2] [Pos→0] pos=0.48s, Media.Opacity=1.00, openId=3
+[15:53:04.445] [I2] [Pos→0] pos=0.49s, Media.Opacity=1.00, openId=3
+[15:53:04.456] [I2] [Pos→0] pos=0.50s, Media.Opacity=1.00, openId=3
+[15:53:47.846] [I1] [Init] Instance created, timer started
+[15:53:47.877] [I1] [Change #1] Start → community_1746_original.mp4, prevOpenId=0
+[15:53:47.878] [I1] [Change #1] Lock acquired, IsOpen=False
+[15:53:47.878] [I1] [Change #1] openId=2 assigned, opening community_1746_original.mp4
+[15:53:47.932] [I1] [Change #1] Open done, openId=2, IsOpen=True, HasVideo=True
+[15:53:47.933] [I1] [Change #1] Safety Play(), openId=2
+[15:53:47.934] [I1] [Change #1] Lock released
+[15:53:47.935] [I1] [StateChanged] → Stop, openId=2
+[15:53:47.942] [I1] [MediaOpened] capturedId=2, current=2
+[15:53:48.133] [I1] [MediaOpened] Starting fade transition, openId=2, currentOpacity=0.00
+[15:53:48.230] [I1] [StateChanged] → Play, openId=2
+[15:53:48.381] [I1] [Pos→0] pos=0.00s, Media.Opacity=0.91, openId=2
+[15:53:48.424] [I1] [FadeIn.Completed] Media Opacity=1 baked, openId=2
+[15:53:48.426] [I1] [FadeOut.Completed] Poster cleared, openId=2
+[15:53:48.474] [I1] [Pos→0] pos=0.11s, Media.Opacity=1.00, openId=2
+[15:53:48.499] [I1] [Pos→0] pos=0.15s, Media.Opacity=1.00, openId=2
+[15:53:48.501] [I1] [Pos→0] pos=0.15s, Media.Opacity=1.00, openId=2
+[15:53:48.515] [I1] [Pos→0] pos=0.15s, Media.Opacity=1.00, openId=2
+[15:53:48.722] [I1] [Pos→0] pos=0.25s, Media.Opacity=1.00, openId=2
+[15:53:48.726] [I1] [Pos→0] pos=0.31s, Media.Opacity=1.00, openId=2
+[15:53:48.729] [I1] [Pos→0] pos=0.31s, Media.Opacity=1.00, openId=2
+[15:53:48.732] [I1] [Pos→0] pos=0.30s, Media.Opacity=1.00, openId=2
+[15:53:48.909] [I1] [Pos→0] pos=0.33s, Media.Opacity=1.00, openId=2
+[15:53:48.918] [I1] [Pos→0] pos=0.41s, Media.Opacity=1.00, openId=2
+[15:53:48.947] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=0.4s
+[15:53:49.046] [I1] [Pos→0] pos=0.49s, Media.Opacity=1.00, openId=2
+[15:53:49.048] [I1] [Pos→0] pos=0.49s, Media.Opacity=1.00, openId=2
+[15:53:49.049] [I1] [Pos→0] pos=0.48s, Media.Opacity=1.00, openId=2
+[15:53:49.982] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=1.1s
+[15:53:51.365] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=1.9s
+[15:53:52.415] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=2.5s
+[15:53:53.871] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=3.4s
+[15:53:56.104] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=4.9s
+[15:53:58.691] [I1] [StateChanged] → Stop, openId=2
+[15:53:58.697] [I1] [MediaEnded] openId=2, Media.Opacity=1.00, Pos=6.65s → LoopingBehavior will Stop+Seek(0)+Play
+[15:53:58.719] [I1] [Pos→0] pos=0.00s, Media.Opacity=1.00, openId=2
+[15:53:58.797] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=0.0s
+[15:53:59.047] [I1] [StateChanged] → Play, openId=2
+[15:53:59.054] [I1] [Pos→0] pos=0.00s, Media.Opacity=1.00, openId=2
+[15:53:59.066] [I1] [Pos→0] pos=0.01s, Media.Opacity=1.00, openId=2
+[15:53:59.157] [I1] [Pos→0] pos=0.08s, Media.Opacity=1.00, openId=2
+[15:53:59.175] [I1] [Pos→0] pos=0.12s, Media.Opacity=1.00, openId=2
+[15:53:59.177] [I1] [Pos→0] pos=0.12s, Media.Opacity=1.00, openId=2
+[15:53:59.179] [I1] [Pos→0] pos=0.12s, Media.Opacity=1.00, openId=2
+[15:53:59.328] [I1] [Pos→0] pos=0.15s, Media.Opacity=1.00, openId=2
+[15:53:59.372] [I1] [Pos→0] pos=0.21s, Media.Opacity=1.00, openId=2
+[15:53:59.391] [I1] [Pos→0] pos=0.25s, Media.Opacity=1.00, openId=2
+[15:53:59.398] [I1] [Pos→0] pos=0.25s, Media.Opacity=1.00, openId=2
+[15:53:59.400] [I1] [Pos→0] pos=0.25s, Media.Opacity=1.00, openId=2
+[15:53:59.469] [I1] [Pos→0] pos=0.30s, Media.Opacity=1.00, openId=2
+[15:53:59.497] [I1] [Pos→0] pos=0.33s, Media.Opacity=1.00, openId=2
+[15:53:59.500] [I1] [Pos→0] pos=0.33s, Media.Opacity=1.00, openId=2
+[15:53:59.506] [I1] [Pos→0] pos=0.32s, Media.Opacity=1.00, openId=2
+[15:53:59.640] [I1] [Pos→0] pos=0.35s, Media.Opacity=1.00, openId=2
+[15:53:59.713] [I1] [Pos→0] pos=0.40s, Media.Opacity=1.00, openId=2
+[15:53:59.732] [I1] [Pos→0] pos=0.46s, Media.Opacity=1.00, openId=2
+[15:53:59.926] [I1] [PlayPause] Clicked: IsPlaying=True, IsOpen=True, openId=2
+[15:54:00.011] [I1] [StateChanged] → Pause, openId=2
+[15:54:00.257] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=0.6s
+[15:54:01.256] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=0.6s
+[15:54:02.263] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=0.6s
+[15:54:03.260] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=0.6s
+[15:54:04.261] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=0.6s
+[15:54:05.409] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=0.6s
+[15:54:06.530] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=0.6s
+[15:54:07.574] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=0.6s
+[15:54:08.571] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=0.6s
+[15:54:10.149] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=0.6s
+[15:54:11.207] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=0.6s
+[15:54:12.558] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=0.6s
+[15:54:13.560] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=0.6s
+[15:54:14.554] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=0.6s
+[15:54:15.555] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=0.6s
+[15:54:16.557] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=0.6s
+[15:54:17.556] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=0.6s
+[15:54:18.556] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=0.6s
+[15:54:19.557] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=0.6s
+[15:54:19.930] [I1] [PlayPause] Clicked: IsPlaying=False, IsOpen=True, openId=2
+[15:54:19.949] [I1] [StateChanged] → Play, openId=2
+[15:54:20.742] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=1.2s
+[15:54:21.767] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=1.8s
+[15:54:23.662] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=True, Pos=3.0s
+[15:54:23.932] [I1] [PlayPause] Clicked: IsPlaying=True, IsOpen=True, openId=2
+[15:54:23.991] [I1] [StateChanged] → Pause, openId=2
+[15:54:24.662] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:25.712] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:26.710] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:27.715] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:28.715] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:29.712] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:30.721] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:31.712] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:32.713] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:33.710] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:34.714] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:35.712] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:36.712] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:37.718] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:38.719] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:39.711] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:40.711] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:41.712] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:42.709] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:43.710] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:45.036] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:46.040] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:47.037] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:48.048] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:49.037] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:50.038] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:51.041] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:52.044] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:53.042] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:54.040] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:55.041] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:56.041] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:57.042] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:58.047] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:54:59.045] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:55:00.045] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:55:01.047] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:55:02.047] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
+[15:55:03.043] [I1] [Heartbeat] Opacity=1.00, PosterOpacity=0.00, PosterHasSrc=False, openId=2, IsOpen=True, HasVideo=True, IsPlaying=False, Pos=3.3s
