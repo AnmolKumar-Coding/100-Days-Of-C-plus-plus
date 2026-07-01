@@ -233,3 +233,23 @@ Tracking my daily coding consistency, lecture progress, and problem-solving jour
 - **Bitwise Operators:** Learned how `&`, `|`, `^`, and `~` compare numbers bit-by-bit in memory.
 - **Bit Shift Math:** Explored how Left Shift (`<<`) shifts binary bits left (multiplying by 2) and Right Shift (`>>`) shifts bits right (dividing by 2) efficiently.
 - **Operator Sequencing:** Mastered how pre-increment (`++i`) updates a variable instantly before it is used, while post-increment (`i++`) uses the current value first and updates it right after.
+
+---
+
+### Day 12 — For Loops, Fibonacci Series & Prime Checkers
+
+#### 📖 Topics Learned
+
+```diff
++ for(int a=0, b=1; a>=0; a--, b--)  // Multiple variables in one loop
++ int sum = a + b; a = b; b = sum;   // Shifting values to get the next number
++ bool isprime = 1; break;           // Using true/false flags and stopping loops early
+```
+
+#### 🎯 Achievement
+- Learned how to control `for` loops using multiple variables at once. I solved the Fibonacci series on my own first try and optimized my prime number checker to run faster using the `break` statement.
+
+#### 💡 Key Concepts
+- **Flexible Loops:** The three parts of a `for` loop (start, condition, and step) are optional. Leaving them blank `for(;;)` makes an infinite loop that you can stop using `break`.
+- **Value Shifting:** To make a series like Fibonacci, you have to pass values from one variable to another (`a = b; b = sum;`) so the numbers keep moving forward.
+- **Using Flags:** A boolean variable (like `isprime`) can hold a true/false status across your code, helping you decide what to print after a loop ends.
