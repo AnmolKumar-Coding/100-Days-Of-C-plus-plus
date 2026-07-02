@@ -253,3 +253,26 @@ Tracking my daily coding consistency, lecture progress, and problem-solving jour
 - **Flexible Loops:** The three parts of a `for` loop (start, condition, and step) are optional. Leaving them blank `for(;;)` makes an infinite loop that you can stop using `break`.
 - **Value Shifting:** To make a series like Fibonacci, you have to pass values from one variable to another (`a = b; b = sum;`) so the numbers keep moving forward.
 - **Using Flags:** A boolean variable (like `isprime`) can hold a true/false status across your code, helping you decide what to print after a loop ends.
+
+---
+
+### Day 13 — Control Keywords, Variable Scope, and First LeetCode Milestones
+
+#### 📖 Topics Learned
+
+```diff
++ continue;                         // Skip the rest of the current loop step
++ if(true) { int b = 50; }          // Variables are locked inside their own blocks
++ int digit = n % 10; n = n / 10;   // Math trick to separate digits from a number
++ if(n & 1); n = n >> 1;            // Checking and moving binary bits
+```
+
+#### 🎯 Achievement
+- Mastered the `continue` keyword for loop skipping and learned how variable safety works with block scopes. Most importantly, passed all test cases for my first two coding platform challenges: LeetCode 1281 and LeetCode 191!
+
+#### 💡 Key Concepts
+- **Loop Control:** While `break` exits a loop completely, `continue` just skips the rest of the current turn and moves straight to the next loop cycle.
+- **Variable Scope:** Variables are local to the brackets `{ }` they are born in. You can reuse a variable name like `i` inside a `for` loop even if `i` already exists outside of it.
+- **Digit Stripping Math:** Dividing an integer by 10 continuously reduces its size, while using modulo 10 peels off the last digit. This is a core pattern for number puzzle problems.
+- **Bitwise Bit Counting:** Combined bitwise AND checks with right shifts to inspect binary numbers bit-by-bit at the hardware level.
+
