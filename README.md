@@ -276,3 +276,23 @@ Tracking my daily coding consistency, lecture progress, and problem-solving jour
 - **Digit Stripping Math:** Dividing an integer by 10 continuously reduces its size, while using modulo 10 peels off the last digit. This is a core pattern for number puzzle problems.
 - **Bitwise Bit Counting:** Combined bitwise AND checks with right shifts to inspect binary numbers bit-by-bit at the hardware level.
 
+---
+
+### Day 14 — Decimal and Binary Conversions (Full Lecture)
+
+#### 📖 Topics Learned
+
+```diff
++ int bit = n & 1; n = n >> 1;      // Pulling out binary bits one by one
++ ans = (bit * pow(10, i)) + ans;   // Math trick to fix the backwards bit order
++ ans = (digit * pow(2, i)) + ans;  // Turning binary digits back into normal numbers
+```
+
+#### 🎯 Achievement
+- Mastered the complete math logic for converting numbers back and forth between Decimal (Base-10) and Binary (Base-2), including how the computer handles negative binary numbers using bits.
+
+#### 💡 Key Concepts
+- **Bit Scanning:** Using `& 1` checks if the last bit of a number is a 0 or a 1. Right shifting (`>> 1`) drops that bit so you can check the next one.
+- **The Stacking Trick:** The formula `(bit * 10^i) + ans` builds a number from right to left by pushing older numbers into the tens, hundreds, and thousands spots so the final answer is not backwards.
+- **Negative Binary:** Computers store negative numbers by taking the positive binary version, flipping all the bits, and adding 1.
+- **Decoding Binary:** To go from binary back to a normal number, you multiply each digit by its positional value in base-2 (1, 2, 4, 8, etc.) and sum up the total.
