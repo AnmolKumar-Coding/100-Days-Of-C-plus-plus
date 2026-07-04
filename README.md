@@ -296,3 +296,12 @@ Tracking my daily coding consistency, lecture progress, and problem-solving jour
 - **The Stacking Trick:** The formula `(bit * 10^i) + ans` builds a number from right to left by pushing older numbers into the tens, hundreds, and thousands spots so the final answer is not backwards.
 - **Negative Binary:** Computers store negative numbers by taking the positive binary version, flipping all the bits, and adding 1.
 - **Decoding Binary:** To go from binary back to a normal number, you multiply each digit by its positional value in base-2 (1, 2, 4, 8, etc.) and sum up the total.
+
+---
+
+### Day 15 - Just coded the things i learned in Day-14.
+-The things I studied in Day-15 I dont undertsand the code yet so I decided I needed a break and will do it tommorow.
+
+---
+
+
