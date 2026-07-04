@@ -302,6 +302,8 @@ Tracking my daily coding consistency, lecture progress, and problem-solving jour
 ### Day 15 - Just coded the things i learned in Day-14.
 -The things I studied in Day-15 I dont undertsand the code yet so I decided I needed a break and will do it tommorow.
 
+1. **Mastered The Decimal To Binary Coversion.**
+2. **Mastered The Binary To Decimal Coversion.**
 ---
 
 
