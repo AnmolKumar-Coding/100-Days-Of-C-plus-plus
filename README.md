@@ -304,6 +304,24 @@ Tracking my daily coding consistency, lecture progress, and problem-solving jour
 
 1. **Mastered The Decimal To Binary Coversion.**
 2. **Mastered The Binary To Decimal Coversion.**
+
 ---
 
+### Day 16 — LeetCode Practice: Reverse Integer & Bitwise Complement
 
+#### 📖 Topics Learned
+
+```diff
++ int digit = x % 10; x /= 10;       // Isolating and removing digits for reversal
++ if(ans > INT_MAX/10 || ans < ...)  // Proactive overflow validation before operations
++ mask = (mask << 1) | 1;            // Dynamically building a custom bitmask length
++ int ans = (~n) & mask;             // Isolating flipped bits using a bitwise AND mask
+```
+
+#### 🎯 Achievement
+- Successfully passed all test cases for LeetCode 7 (Reverse Integer) and LeetCode 1009 (Bitwise Complement). Mastered integer overflow protection and custom bitmask generation.
+
+#### 💡 Key Concepts
+- **Overflow Prevention:** Since standard 32-bit integers have strict bounds (`INT_MAX` and `INT_MIN`), you must validate that your running total won't exceed these limits *before* executing the next multiplication step.
+- **Digit Reconstruction:** Reversing an integer relies on extracting digits sequentially using modulo math and accumulating them into a new base-10 value using `(ans * 10) + digit`.
+- **Dynamic Bitmasking:** To find the true complement of a number without affecting leading zeros, you can use a loop with bitwise shifts and OR operations (`mask << 1 | 1`) to construct a mask that perfectly matches the bit-length of the target number.
