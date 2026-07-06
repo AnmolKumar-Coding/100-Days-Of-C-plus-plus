@@ -325,3 +325,29 @@ Tracking my daily coding consistency, lecture progress, and problem-solving jour
 - **Overflow Prevention:** Since standard 32-bit integers have strict bounds (`INT_MAX` and `INT_MIN`), you must validate that your running total won't exceed these limits *before* executing the next multiplication step.
 - **Digit Reconstruction:** Reversing an integer relies on extracting digits sequentially using modulo math and accumulating them into a new base-10 value using `(ans * 10) + digit`.
 - **Dynamic Bitmasking:** To find the true complement of a number without affecting leading zeros, you can use a loop with bitwise shifts and OR operations (`mask << 1 | 1`) to construct a mask that perfectly matches the bit-length of the target number.
+
+---
+
+### Day 17 — Power of Two Verification & Multi-Type Stream Precision
+
+#### 📖 Topics Learned
+
+```diff
++ if(ans >= INT_MAX/2)               // Predictive Multiplicative Overflow Safeguard
++ #include <iomanip>                 // Standard Input/Output Stream Manipulator Header
++ cout << fixed                      // Enforcing Fixed-Point Floating-Point Notation
++ cout << setprecision(N)            // Restricting Execution Output to N Fractional Places
+```
+
+#### 🎯 Achievement
+
+- Successfully passed all test cases for LeetCode 231 (Power of Two) and the HackerRank "Basic Data Types" challenge.
+- Mastered boundary condition defenses by intercepting potential 32-bit integer runtime overflows prior to execution.
+- Gained absolute control over standard output streams, eliminating messy scientific notations when rendering high-precision `float` and `double` variables.
+
+#### 💡 Key Concepts
+
+- **Pre-emptive Overflow Interception:** Standard signed 32-bit integers crash or wrap around when exceeding `INT_MAX`. By evaluating `if (ans >= INT_MAX/2)` *before* applying the scaling multiplier (`ans *= 2`), the logic intercepts and halts an overflow event safely.
+- **Stream Manipulation Framework (`<iomanip>`):** Unlocks non-destructive stream formatting state-flags to restructure terminal text representations directly during data transmission.
+- **Fixed-Point Locking (`fixed`):** Overrides the compiler's default behavior of switching large or precise fractional numbers into shorthand scientific notation (e.g., `3.14e+00`), locking it to standard decimal layouts.
+- **Precision Truncation (`setprecision`):** Directs the output stream buffer to display exactly `N` digits following the decimal point, handling trailing padding zeros or rounding automatically.
