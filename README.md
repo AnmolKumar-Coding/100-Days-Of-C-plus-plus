@@ -351,3 +351,29 @@ Tracking my daily coding consistency, lecture progress, and problem-solving jour
 - **Stream Manipulation Framework (`<iomanip>`):** Unlocks non-destructive stream formatting state-flags to restructure terminal text representations directly during data transmission.
 - **Fixed-Point Locking (`fixed`):** Overrides the compiler's default behavior of switching large or precise fractional numbers into shorthand scientific notation (e.g., `3.14e+00`), locking it to standard decimal layouts.
 - **Precision Truncation (`setprecision`):** Directs the output stream buffer to display exactly `N` digits following the decimal point, handling trailing padding zeros or rounding automatically.
+
+---
+
+### Day 18 — Multi-Way Branching, Mathematical Parsing & State Optimization
+
+#### 📖 Topics Learned
+
+```diff
++ switch(expression)                 // Multi-Way Conditional Branching Engine
++ case constant-expression:          // Explicit Identity Matching (Integral/Character Only)
++ break;                             // Sequential Execution Interception & Context Exit
++ default:                           // Optional Fallback Execution Route
++ money %= 100;                      // Remainder Mutation for Sequential State Tracking
+```
+
+#### 🎯 Achievement
+
+- Mastered multi-way branching logic by replacing deeply nested `if-else` chains with clean, execution-efficient `switch` statements.
+- Developed an interactive operator-driven mathematical parser for basic arithmetic processing.
+- Leveraged intentional switch-case fall-through behavior combined with arithmetic mutations to engineer an automated currency denomination counter.
+
+#### 💡 Key Concepts
+
+- **Type Restrictions & Single Identity Checks:** Unlike `if-else` blocks that handle range boundaries (e.g., `n > 0`), a `switch` expression must evaluate down to a single constant discrete value. It strictly accepts integral types (`int`, `char`, `short`, etc.) and does not support floating-point numbers or operational logic chains.
+- **The Fall-Through Control Leak:** The `break` statement functions as a hardware exit instruction. Omitting a `break;` lets execution flow downward sequentially into succeeding `case` blocks regardless of whether their condition keys match, running everything until a `break` or the end of the `switch` container is hit.
+- **State Mutation Tracking:** By mutating a currency total variable using the modulo operator (`%=`) inside a fall-through switch block, a single baseline figure can be safely updated and processed across multiple sequential computational layers.
