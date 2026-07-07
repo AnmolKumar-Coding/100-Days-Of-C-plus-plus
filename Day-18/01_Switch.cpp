@@ -79,3 +79,5 @@ int main (){
         default : cout << " Default" << endl;
     }
 }
+
+//switch can only be used if the value is a single defined value eg. 1, 2, 3, '1', '2', 'a', etc..it cannot use n > 0, or any others .. sp if it is not a single value and multiple using ( > ; < ) then use if or else if.
