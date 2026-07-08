@@ -354,7 +354,7 @@ Tracking my daily coding consistency, lecture progress, and problem-solving jour
 
 ---
 
-### Day 18 — Multi-Way Branching, Mathematical Parsing & State Optimization
+### Day 18 — Multi-Way Branching, basic c++ calculator & State Optimization
 
 #### 📖 Topics Learned
 
@@ -369,7 +369,7 @@ Tracking my daily coding consistency, lecture progress, and problem-solving jour
 #### 🎯 Achievement
 
 - Mastered multi-way branching logic by replacing deeply nested `if-else` chains with clean, execution-efficient `switch` statements.
-- Developed an interactive operator-driven mathematical parser for basic arithmetic processing.
+- Developed a basic c++ calculator.
 - Leveraged intentional switch-case fall-through behavior combined with arithmetic mutations to engineer an automated currency denomination counter.
 
 #### 💡 Key Concepts
