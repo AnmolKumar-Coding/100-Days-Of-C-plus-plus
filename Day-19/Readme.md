@@ -1,4 +1,4 @@
-# Day 18 — Building Functions, Bit Counting, and Pass-By-Value Clones
+# Day 19 — Building Functions, Bit Counting, and Pass-By-Value Clones
 
 Today was a huge coding day where I broke down how C++ splits code into small, organized pieces. I practiced writing multiple logic checks, chaining helper functions together for math formulas, optimizing bit loops, and tracking how variables are copied securely across memory slots.
 
