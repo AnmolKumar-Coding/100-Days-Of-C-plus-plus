@@ -24,4 +24,18 @@ int main (){
     cout << "Value at 0 index :- " << fourth[0] << endl;
     cout << "Value at 2 index :- " << fourth[3] << endl;
 
+    //arrays can be used in to store any data type.
+    //You cannot mix types. An int array can only hold integers. You cannot sneak a char or a float inside it.
+
+    char ch[5]{'a', 'b' , 'c', 'd', 'e'};
+    cout << "Value at 0 index :- " << ch[0] << endl;
+    cout << "Value at 3 index :- " << ch[3] << endl;
+    cout << "Value at 5 index :- " << ch[4] << endl;
+
+    float f[3]{1.23, 3.123, 123.122};
+    cout << "Value at 1 index :- " << f[1] << endl;
+    cout << "Value at 2 index :- " << f[2] << endl;
+
+    double d[1]{1.2121};
+    cout << "Value at 0 index :- "  << d[0] << endl;
 }
