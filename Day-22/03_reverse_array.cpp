@@ -44,5 +44,6 @@ int main(){
     reversearray(array, size);
     
     printreversearray(array,size);
+    
 
 }
