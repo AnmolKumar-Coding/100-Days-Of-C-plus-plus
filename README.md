@@ -407,3 +407,116 @@ Tracking my daily coding consistency, lecture progress, and problem-solving jour
 - **The Void Return Type:** We use `void` when a function is meant to do an action (like printing counting numbers) rather than calculating an answer value to send back. Because it doesn't give back any data, you cannot put a `void` function inside a `cout` statement.
 - **Clever Bit Clearing (`n & (n-1)`):** Writing `n & (n-1)` instantly turns off the rightmost `1` bit in a binary number. This is super efficient because the loop only runs exactly as many times as there are `1` bits, making it much faster than checking every single spot.
 - **Pass-By-Value Mechanics:** When you pass a variable into a basic function, the compiler doesn't send the real variable. It creates an exact **clone** (a copy) inside a brand new memory slot. Any changes, math steps, or increments inside that function only happen to the clone, leaving your original variable in `main()` completely safe and unchanged.
+
+---
+
+### Day 20 — Starting Arrays and Indexes
+
+#### 📖 Topics Learned
+
+```diff
++ int array[10]                  // Creating an integer array
++ array[index]                   // Accessing values using indexes
++ int array[3]{1, 5, 4}          // Initializing an array
++ char, float, double arrays     // Arrays can store different single data types
+```
+
+#### 🎯 Achievement
+
+- Started learning arrays and how they store many values using one variable name.
+- Practiced creating arrays, giving them values, and printing values using indexes.
+- Learned that array indexing starts from `0`.
+
+#### 💡 Key Concepts
+
+- **Arrays and Memory Boxes:** An array is like a row of boxes stored under one name. Instead of creating many variables like `a`, `b`, and `c`, I can create one array and store many values inside it.
+- **Indexing Starts from Zero:** The first value is stored at index `0`, the second at index `1`, and the last value is at `size - 1`. Using an index outside this range can give wrong output or cause problems.
+- **Array Initialization:** Writing `int arr[3]{1, 5, 4};` stores values directly in the array. Writing `int arr[10]{0};` fills all values with `0`. Writing `{1}` only makes the first value `1`; the remaining values become `0`.
+- **One Data Type Rule:** An integer array only stores integers. A character, float, or double needs its own array with the correct data type.
+
+---
+
+### Day 21 — Arrays with Functions, Min/Max, and Sum
+
+#### 📖 Topics Learned
+
+```diff
++ function(array, size)          // Passing arrays to functions
++ INT_MIN and INT_MAX            // Finding maximum and minimum values
++ max() and min()                // Using predefined functions
++ arr[0] = value                 // Array changes inside a function
++ ans += array[i]                // Finding the sum of array elements
+```
+
+#### 🎯 Achievement
+
+- Learned how to pass arrays to functions.
+- Found the minimum and maximum value in an array using two methods.
+- Understood that changing an array inside a function changes the original array.
+- Created a function to find the total sum of all array values.
+
+#### 💡 Key Concepts
+
+- **Passing Arrays to Functions:** When I pass an array to a function, I also pass its size. The size is important because the function needs to know how many values it should process.
+- **Original Array Changes:** Arrays do not make a separate copy when passed to a function. If I change `arr[0]` inside the function, the same change appears in the original array in `main()`.
+- **Finding Minimum and Maximum:** I used `INT_MIN` while finding the maximum value because every normal integer is bigger than it. I used `INT_MAX` while finding the minimum because every normal integer is smaller than it.
+- **Predefined `min()` and `max()`:** These functions compare two values and return the smaller or bigger one. They make the code shorter while keeping the same logic.
+- **Running Sum:** A sum variable starts from `0`, and every array value is added one by one using `ans += array[i]`. This is useful in many array problems.
+
+---
+
+### Day 22 — Linear Search and Reversing Arrays
+
+#### 📖 Topics Learned
+
+```diff
++ bool search(array, size, key)  // Checking whether a number is present
++ return true / false            // Returning search result
++ start and end indexes          // Reversing an array
++ swap(arr[start], arr[end])     // Swapping values from both sides
+```
+
+#### 🎯 Achievement
+
+- Built linear search programs using fixed and user-entered arrays.
+- Learned how a boolean function can tell whether a number is present.
+- Reversed an array by swapping values from the start and end.
+
+#### 💡 Key Concepts
+
+- **Linear Search:** Linear search checks every array value from the beginning until it finds the target number. If the number is found, the program can stop early.
+- **Boolean Functions:** A `bool` function returns only `true` or `false`. This is useful when the question only needs a yes-or-no answer, such as whether a number exists in an array.
+- **User Input Arrays:** The same search function can work with any array when the user enters the size and values. The function only needs the array, its size, and the target number.
+- **Two-Index Method:** To reverse an array, one index starts from the beginning and another starts from the end. After swapping both values, the indexes move toward the middle.
+- **Using `swap()`:** `swap(arr[start], arr[end])` exchanges two values easily. It helps keep reverse-array code short and clear.
+
+---
+
+### Day 23 — Array Swapping, Unique Numbers, and Duplicates
+
+#### 📖 Topics Learned
+
+```diff
++ i += 2                         // Moving through alternate pairs
++ a ^ a = 0                      // XOR removes matching pairs
++ nested loops                   // Comparing values one by one
++ duplicate search               // Finding repeated values in an array
+```
+
+#### 🎯 Achievement
+
+- Swapped alternate values in an array.
+- Found a unique number using both XOR and nested loops.
+- Found duplicate numbers using XOR and nested loops.
+- Understood that different methods work under different conditions.
+
+#### 💡 Key Concepts
+
+- **Alternate Swapping:** To swap values in pairs, I move through the array using `i += 2`. This swaps the first and second values, then the third and fourth values, and continues in the same way.
+- **Safe Pair Boundaries:** The condition `i < size - 1` makes sure the program does not try to swap a value that does not exist when the array has an odd number of elements.
+- **XOR for Unique Numbers:** XOR has a special rule: a number XOR with itself becomes `0`. When every duplicate appears exactly twice, all pairs cancel out and the single unique number remains.
+- **XOR Conditions Matter:** The XOR unique-number method only works when there is one unique number and every other number appears exactly two times. If the question does not follow this rule, the answer may be wrong.
+- **Nested Loops as a Safe Method:** Nested loops compare one value with the other values in the array. They take more steps than XOR, but they work in more situations and are easier to understand.
+- **Finding Duplicates:** A duplicate can be found by comparing values with nested loops. XOR can also find a duplicate, but only when the array follows the required number pattern.
+
+---
