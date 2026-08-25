@@ -418,6 +418,10 @@ Tracking my daily coding consistency, lecture progress, and problem-solving jour
 + int array[10]                  // Creating an integer array
 + array[index]                   // Accessing values using indexes
 + int array[3]{1, 5, 4}          // Initializing an array
++ int array[100]{0}              // Initializing all values with zero
++ int array[10]{1}               // Partial initialization
++ fill(array, array + size, x)   // Filling a range with one value
++ fill_n(array, count, x)        // Filling a fixed number of values
 + char, float, double arrays     // Arrays can store different single data types
 ```
 
@@ -426,12 +430,18 @@ Tracking my daily coding consistency, lecture progress, and problem-solving jour
 - Started learning arrays and how they store many values using one variable name.
 - Practiced creating arrays, giving them values, and printing values using indexes.
 - Learned that array indexing starts from `0`.
+- Learned safe index limits and different ways to initialize array values.
+- Practiced using `fill()` and `fill_n()` to initialize multiple elements quickly.
 
 #### 💡 Key Concepts
 
 - **Arrays and Memory Boxes:** An array is like a row of boxes stored under one name. Instead of creating many variables like `a`, `b`, and `c`, I can create one array and store many values inside it.
 - **Indexing Starts from Zero:** The first value is stored at index `0`, the second at index `1`, and the last value is at `size - 1`. Using an index outside this range can give wrong output or cause problems.
 - **Array Initialization:** Writing `int arr[3]{1, 5, 4};` stores values directly in the array. Writing `int arr[10]{0};` fills all values with `0`. Writing `{1}` only makes the first value `1`; the remaining values become `0`.
+- **Values Before Reading:** `int arr[10];` creates the array but does not set its values. I should store values first before trying to print them.
+- **Using `fill()`:** `fill(arr, arr + size, value)` puts the same value in a selected part of an array. The second position marks where filling should stop.
+- **Using `fill_n()`:** `fill_n(arr, count, value)` starts from the first position and fills exactly `count` elements. It is useful when I know how many values I want to update.
+- **Overwriting Values:** If I use `fill()` again on the same elements, the new value replaces the old value. This is useful, but I need to be careful not to replace values by mistake.
 - **One Data Type Rule:** An integer array only stores integers. A character, float, or double needs its own array with the correct data type.
 
 ---
