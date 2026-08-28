@@ -530,3 +530,35 @@ Tracking my daily coding consistency, lecture progress, and problem-solving jour
 - **Finding Duplicates:** A duplicate can be found by comparing values with nested loops. XOR can also find a duplicate, but only when the array follows the required number pattern.
 
 ---
+
+### Day 24 — Array Intersection & Vector Usage
+
+#### 📖 Topics Learned
+
+```diff
++ vector<int>                    // Dynamic list that grows and shrinks
++ vector functions               // push_back(), size()
++ Two counter approach           // Using i and j to match sorted arrays
++ Nested loops for matching      // Comparing each element with all others
++ INT_MIN                        // Marking used elements to avoid duplicates
+```
+
+#### 🎯 Achievement
+
+- Learned how to find common elements (intersection) between two arrays using two different approaches.
+- Mastered vector basics and how to use vector methods like `push_back()` and `size()`.
+- Built solutions for both sorted and randomized array elements.
+- Understood when to use efficient two-counter logic vs. nested loops.
+
+#### 💡 Key Concepts
+
+- **Vectors as Dynamic Lists:** A vector is like an array that can grow and shrink. Instead of fixing a size at creation, a vector starts empty and expands each time you add data using `push_back()`.
+- **Vector Declaration:** When you write `vector<int> ans;`, you're creating an empty list that only stores integers. The `<int>` part locks the type, so you can never put strings or floats in it.
+- **Using push_back():** The `push_back()` function takes a value and adds it to the very end of the vector. Every time you call it, the vector automatically grows by one slot in memory.
+- **Finding Vector Size:** The `.size()` function returns exactly how many elements are currently in the vector. This is useful in loops because you know the exact stopping point.
+- **Two-Counter Matching (Sorted Arrays):** When both arrays are already sorted from smallest to largest, you can use two counters (`i` and `j`) starting at index 0. If the numbers match, add to result and move both counters. If `arr1[i]` is smaller, move only `i`. If `arr2[j]` is smaller, move only `j`.
+- **Nested Loop Matching (Any Arrays):** For arrays that aren't sorted, use nested loops to compare each element in the first array with every element in the second array. When you find a match, mark that element in the second array with `INT_MIN` so you don't count it twice.
+- **Marking Elements:** Using `arr2[j] = INT_MIN` marks that position as "already used" so the algorithm doesn't accidentally match the same element twice in the result.
+- **Returning Vectors:** A function can return a vector object. The return type must match—if the function says `vector<int>`, it must return a `vector<int>`.
+
+---
