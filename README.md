@@ -562,3 +562,36 @@ Tracking my daily coding consistency, lecture progress, and problem-solving jour
 - **Returning Vectors:** A function can return a vector object. The return type must match—if the function says `vector<int>`, it must return a `vector<int>`.
 
 ---
+
+### Day 25 — LeetCode & Coding Platform Practice: Searching & Sorting Arrays
+
+#### 📖 Topics Learned
+
+```diff
++ Marking with negative numbers    // Using array itself as a hash for tracking
++ Two-pointer technique            // Moving pointers from opposite ends
++ Nested loops for pairs/triplets  // Finding multiple elements that satisfy conditions
++ Dutch National Flag algorithm    // Sorting with three pointers and three values
++ Sorting vectors                  // Using sort() with vector iterators
++ Returning 2D vectors             // Vector of vectors for storing pairs/triplets
+```
+
+#### 🎯 Achievement
+
+- Solved LeetCode question 442 using negative marking to find duplicates in O(n) time.
+- Practiced finding pair and triplet sums on CodeNinjas using nested loops and sorting.
+- Mastered the two-pointer technique for efficient array sorting.
+- Implemented the Dutch National Flag algorithm to sort arrays with three distinct values.
+- Successfully applied multiple approaches to array manipulation problems.
+
+#### 💡 Key Concepts
+
+- **Negative Marking:** Using negative signs to mark visited elements without extra space. Using abs() to get the original value while checking the sign tells us if we've seen it before.
+- **2D Vectors:** `vector<vector<int>>` stores pairs or triplets. Elements are added using `push_back({val1, val2})` syntax.
+- **Sorting Vectors:** The `sort()` function works on vectors using `sort(arr.begin(), arr.end())`. This is different from regular array sorting.
+- **Two-Pointer Method:** Place pointers at opposite ends and move them toward each other based on conditions. Used for sorting 0s and 1s efficiently.
+- **Triplet Finding:** Fix one element with outer loop, then use two pointers on the remaining array to find pairs that match a target sum.
+- **Dutch National Flag:** Three pointers divide the array into regions for 0s, 1s, and 2s. Move `mid` forward, `low` expands the 0s region, and high shrinks the 2s region.
+- **Nested Loops for Multiple Elements:** When finding pairs/triplets, nested loops check combinations. Sorting first helps with duplicate control.
+
+---
