@@ -77,5 +77,4 @@ public:
         return true;
     }
 };
-//checking if the evrified appears in this laptop
-//check again
+//The verified SSH is made in the new laptop last check.
