@@ -77,3 +77,4 @@ public:
         return true;
     }
 };
+//checking if the evrified appears in this laptop
