@@ -422,8 +422,9 @@ int c[10] = {1};
   ```
 - **Syntax:**
   ```cpp
-  fill(arr, arr + n, value);
+  fill(arr, arr + n, value);    //Here n is the size of the array.
   fill_n(arr, n, value);
+  sort(arr , arr + n);
   ```
 - **Complexity:** `O(n)`.
 
@@ -536,9 +537,9 @@ for i = 1 to N-1: ans ^= i;
   ```
 - **Syntax:**
   ```cpp
-  vector<int> v;
-  v.push_back(x);
-  int n = v.size();
+  vector<int> v;      //used to make a vector
+  v.push_back(x);     //use to push the element in vector
+  int n = v.size();   //used to find the size of vector 
   ```
 
 ### Intersection (sorted arrays, two pointers)
