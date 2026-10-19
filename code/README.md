@@ -676,7 +676,7 @@ return true;
 | `while` loops | Day 5 | Pattern-heavy Days 7–10 |
 | Nested loops/patterns | Day 7 | Advanced formulas Days 8–10 |
 | Character/ASCII patterns | Day 9 | Alignment and pattern math |
-| Bitwise (`&`, `|`, `~`, `^`, shifts) | Day 11 | Days 13, 16, 19, 23 |
+| Bitwise (`&`, `or`, `~`, `^`, shifts) | Day 11 | Days 13, 16, 19, 23 |
 | `for`, `break`, `continue` | Day 12 / Day 13 | Algorithm control in later days |
 | Numeric conversion (decimal/binary) | Day 14 concepts, Day 15 code | Bit manipulation problems |
 | Overflow handling | Day 16 | Day 17 guarded doubling |
