@@ -627,3 +627,35 @@ Tracking my daily coding consistency, lecture progress, and problem-solving jour
 - **Using `pair`:** `pair<int, int>` stores two values together. I used `.first` for the first position and `.second` for the last position.
 - **Mountain Array Peak:** By comparing the middle value with the next value, I can decide whether I am on the increasing side or decreasing side of a mountain array.
 - **Pivot Index:** A pivot index is an index where the sum of values on the left equals the sum of values on the right. The pivot value itself is not included in either sum.
+---
+
+### Day 27 — Rotated Array Search & Integer Square Root
+
+#### 📖 Topics Learned
+
+```diff
++ Finding pivot index in a rotated sorted array
++ Binary search on selected half after pivot detection
++ Quick-exit check for pivot match
++ Correct search range split: [pivot..n-1] and [0..pivot-1]
++ Integer square root using binary search
++ Using long long to prevent overflow in mid*mid
+```
+
+#### 🎯 Achievement
+
+- Solved pivot-finding in rotated sorted arrays using binary search logic.
+- Implemented search in a rotated sorted array by combining pivot detection with normal binary search.
+- Fixed and used the correct left-side search boundary (`pivot - 1`) for sorted-range safety.
+- Solved LeetCode 69 (integer square root) with O(log x) complexity.
+- Applied overflow-safe calculations in both midpoint and square checks.
+
+#### 💡 Key Concepts
+
+- **Pivot in Rotated Array:** In rotated sorted arrays, pivot is the index of the minimum element where sorted order wraps.
+- **Already Sorted Edge Case:** If `arr[0] <= arr[n-1]`, array is not rotated and pivot is index `0`.
+- **Half Selection Before Search:** After finding pivot, decide which sorted half can contain target and run binary search only there.
+- **Range Discipline:** Left side must end at `pivot - 1` so each search range stays fully sorted.
+- **Quick Exit Optimization:** If `k == arr[pivot]`, return immediately without extra search.
+- **Integer sqrt via Binary Search:** Compare `mid*mid` with `x` and shrink boundaries until floor value is found.
+- **Overflow Prevention:** Use `long long` for `mid`, `s`, `e`, and `mid*mid` checks to avoid overflow.
