@@ -1,62 +1,102 @@
 # Day 26 — Learning Binary Search and Array Positions
 
-Today I practiced multiple array problems and used binary search in different ways. I understood that binary search is not only for finding one value, but also for finding boundaries, peaks, and valid decision points in sorted data.
+Today, I practiced different array problems and started using binary search in more than one way. I learned that binary search is not only for finding one number; it can also help find positions, peaks, and boundaries in sorted arrays.
 
-## 📋 What I Practiced
+## What I Practiced
 
-| File Name | Topic | What I Learned |
-| :--- | :--- | :--- |
-| `01_leetcode_question_1207.cpp` | Unique Occurrence Counts | How sorting helps group equal values, then frequency checking confirms whether occurrence counts are unique. |
-| `02_Binary_search.cpp` | Binary Search Basics | How to sort first, use safe midpoint calculation, and return a sentinel value when key is not found. |
-| `03_ First_and_Last_Position_of_an_Element_In_Sorted_Array.cpp` | First & Last Occurrence | How to run binary search in two directions to capture left boundary and right boundary of a target. |
-| `04_LeetcodeQuestion_852_Peak_Index_in_a_Mountain_Array.cpp` | Mountain Peak Search | How slope comparison (`arr[mid]` vs `arr[mid+1]`) helps locate the peak index. |
-| `05_LeetcodeQuestion_724_Find_Pivot_Index.cpp` | Pivot Index | How to compare left-side sum and right-side sum for each index to find balance point. |
-
----
-
-### 🔍 Code Explanations
-
-#### 📁 `01_leetcode_question_1207.cpp` — Unique Number of Occurrences
-
-- **Sorting First:** I sorted the array so same numbers come together in one block.
-- **Group Counting:** I tracked each group size using `current_count`.
-- **Last Group Safety:** I pushed the final count after loop end so the last group is never missed.
-- **Uniqueness Check:** I sorted the frequency list and compared adjacent counts to detect duplicates.
-
-#### 📁 `02_Binary_search.cpp` — Binary Search with Safety Checks
-
-- **Precondition:** I sorted the array before binary search because binary search depends on ordered data.
-- **Safe Midpoint:** I used `initial + (final - initial) / 2` to avoid overflow risk.
-- **Boundary Movement:** I moved left or right boundaries by excluding `mid` to keep the loop progressing.
-- **Sentinel Return:** I returned `INT_MIN` when key was not found.
-- **Worth Keeping:** The not-found check happens before index use, which prevents invalid array access.
-
-#### 📁 `03_ First_and_Last_Position_of_an_Element_In_Sorted_Array.cpp` — Boundary Search
-
-- **First Occurrence Logic:** After finding key, I saved index and moved left (`finals = mid - 1`).
-- **Last Occurrence Logic:** After finding key, I saved index and moved right (`initial = mid + 1`).
-- **Two Answers Together:** I used `pair<int, int>` to return both positions from one function.
-
-#### 📁 `04_LeetcodeQuestion_852_Peak_Index_in_a_Mountain_Array.cpp` — Peak Index in Mountain Array
-
-- **Slope Decision:** If `arr[mid] < arr[mid+1]`, I am on ascending side, so I moved right.
-- **Peak Inclusion Rule:** Otherwise I moved `end = mid` because `mid` can itself be the peak.
-- **Convergence:** When `start == end`, that index is the peak.
-
-#### 📁 `05_LeetcodeQuestion_724_Find_Pivot_Index.cpp` — Pivot Index by Sum Balance
-
-- **Helper Functions:** I created `Leftsum()` and `Rightsum()` for cleaner logic.
-- **Index Check:** For each position, I compared both sums.
-- **Result Rule:** If equal, return index; if none match, return `-1`.
+| File | What I Practiced |
+|---|---|
+| `01_leetcode_question_1207.cpp` | Checking whether every number has a unique occurrence count |
+| `02_Binary_search.cpp` | Searching for a number in a sorted array |
+| `03_ First_and_Last_Position_of_an_Element_In_Sorted_Array.cpp` | Finding the first and last index of a target value |
+| `04_LeetcodeQuestion_852_Peak_Index_in_a_Mountain_Array.cpp` | Finding the peak index in a mountain array |
+| `05_LeetcodeQuestion_724_Find_Pivot_Index.cpp` | Finding an index with equal left and right sums |
 
 ---
 
-### 🧠 My Key Takeaways
+## Important Code Explanations
 
-- Binary search must be used on sorted data.
-- Safe midpoint calculation is important for large index ranges.
-- Sentinel values are useful, but they must be checked before using them as indices.
-- First/last occurrence problems are solved by changing boundary direction after a match.
-- `pair<int, int>` is a clean way to return two related answers.
-- Breaking logic into helper functions made pivot-index code easier to read.
-- I ignored non-learning comments and kept only concepts that improve algorithm understanding and safety.
+### 1. Unique Number of Occurrences
+
+In this question, I first sorted the vector using:
+
+```cpp
+sort(arr.begin(), arr.end());
+```
+
+After sorting, equal values come next to each other. I used `current_count` to count how many times each number appears. Each completed count is saved in another vector.
+
+Then I sorted the count vector and checked neighbouring counts. If two counts are the same, the answer is `false`. Otherwise, the answer is `true`.
+
+### 2. Binary Search
+
+Binary search only works after the array is sorted.
+
+```cpp
+int mid = initial + (final - initial) / 2;
+```
+
+I check the middle value:
+
+- If it matches the key, I return its index.
+- If the middle value is smaller, I search the right half.
+- If the middle value is bigger, I search the left half.
+
+If the key is not found, the function returns `INT_MIN`, and the main function prints that the key is not present.
+
+### 3. First and Last Position of an Element
+
+This file uses binary search two times.
+
+For the first occurrence, when I find the key, I save the index and continue searching on the left side:
+
+```cpp
+finals = mid - 1;
+```
+
+For the last occurrence, when I find the key, I save the index and continue searching on the right side:
+
+```cpp
+initial = mid + 1;
+```
+
+Finally, I used `pair<int, int>` to return both answers together:
+
+```cpp
+answers.first
+answers.second
+```
+
+### 4. Peak Index in a Mountain Array
+
+A mountain array first increases and then decreases.
+
+I compare the middle value with the next value:
+
+```cpp
+if(arr[mid] < arr[mid + 1])
+```
+
+- If true, I am on the increasing side, so the peak is on the right.
+- Otherwise, I am at the peak or on the decreasing side, so I move the ending index to `mid`.
+
+When `start` and `end` become equal, that index is the peak.
+
+### 5. Pivot Index
+
+A pivot index has equal sums on both sides.
+
+I made two helper functions:
+
+- `Leftsum()` adds all values before the current index.
+- `Rightsum()` adds all values after the current index.
+
+For every index, I compare both sums. If they are equal, I return that index. If no pivot index exists, the program returns `-1`.
+
+## My Key Takeaways
+
+- Binary search needs sorted data.
+- The way I move `start` and `end` decides whether I find the correct answer.
+- `pair<int, int>` is useful when one function needs to return two related values.
+- Sorting can make counting repeated values much easier.
+- Array problems often become clearer when I split the work into small helper functions.

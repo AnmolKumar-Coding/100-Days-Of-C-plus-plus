@@ -602,10 +602,8 @@ Tracking my daily coding consistency, lecture progress, and problem-solving jour
 
 ```diff
 + Binary search on sorted arrays
-+ Safe middle-index calculation to avoid overflow
-+ Sorting as a prerequisite before binary search
-+ Sentinel return value (`INT_MIN`) for not-found case
-+ First and last occurrence search with boundary control
++ Safe middle-index calculation
++ Finding first and last occurrence of an element
 + pair<int, int> for returning two answers
 + Peak index in a mountain array
 + Pivot index using left and right sums
@@ -614,19 +612,50 @@ Tracking my daily coding consistency, lecture progress, and problem-solving jour
 
 #### 🎯 Achievement
 
-- Practiced five array-based coding questions using searching, sorting, vectors, and helper functions.
-- Applied binary search to exact-match lookup, boundary lookup, and peak detection problems.
-- Implemented first-occurrence and last-occurrence logic using direction-specific boundary updates.
-- Used `pair<int, int>` to return both range boundaries from one function.
-- Added safer not-found handling using a sentinel check before printing array index output.
+- Practiced five array-based coding questions using searching, sorting, vectors, and functions.
+- Learned binary search and used it in different problems instead of checking every value one by one.
+- Found the first and last position of a repeated number in a sorted array.
+- Used `pair<int, int>` to return two related answers from one function.
+- Solved problems based on unique occurrences, mountain-array peaks, and pivot indexes.
 
 #### 💡 Key Concepts
 
-- **Binary Search Requires Order:** Binary search logic works correctly only when data is sorted.
-- **Safe Mid Formula:** `start + (end - start) / 2` is safer than `start + end` for large index values.
-- **Sentinel Strategy:** Returning `INT_MIN` for "not found" avoids confusion with valid indices (`0` and above).
-- **Short-Circuit Safety Check:** Validating the sentinel before using the index prevents out-of-bounds access.
-- **Range Search with Two Passes:** Continue left after a match for first occurrence and right after a match for last occurrence.
-- **Occurrence Counting Pattern:** Sort, count grouped values, store frequencies, then detect duplicate counts.
-- **Mountain Peak Decision Rule:** Compare `arr[mid]` with `arr[mid+1]` to choose the half that contains the peak.
-- **Pivot Index Definition:** Pivot index is where left sum equals right sum, excluding the pivot element.
+- **Binary Search:** Binary search works on sorted data. It checks the middle index and removes half of the remaining search area after every comparison, making the search much faster for large arrays.
+- **Safe Middle Index:** I used `start + (end - start) / 2` to calculate the middle index. This is safer than directly adding `start + end`.
+- **Counting Occurrences:** After sorting an array, equal values come together. I can count one group at a time, save each count in a vector, sort those counts, and check whether any two counts are the same.
+- **First and Last Position:** When a matching value is found, I save its index but continue searching. Moving left helps find the first occurrence, while moving right helps find the last occurrence.
+- **Using `pair`:** `pair<int, int>` stores two values together. I used `.first` for the first position and `.second` for the last position.
+- **Mountain Array Peak:** By comparing the middle value with the next value, I can decide whether I am on the increasing side or decreasing side of a mountain array.
+- **Pivot Index:** A pivot index is an index where the sum of values on the left equals the sum of values on the right. The pivot value itself is not included in either sum.
+---
+
+### Day 27 — Rotated Array Search & Integer Square Root
+
+#### 📖 Topics Learned
+
+```diff
++ Finding pivot index in a rotated sorted array
++ Binary search on selected half after pivot detection
++ Quick-exit check for pivot match
++ Correct search range split: [pivot..n-1] and [0..pivot-1]
++ Integer square root using binary search
++ Using long long to prevent overflow in mid*mid
+```
+
+#### 🎯 Achievement
+
+- Solved pivot-finding in rotated sorted arrays using binary search logic.
+- Implemented search in a rotated sorted array by combining pivot detection with normal binary search.
+- Fixed and used the correct left-side search boundary (`pivot - 1`) for sorted-range safety.
+- Solved LeetCode 69 (integer square root) with O(log x) complexity.
+- Applied overflow-safe calculations in both midpoint and square checks.
+
+#### 💡 Key Concepts
+
+- **Pivot in Rotated Array:** In rotated sorted arrays, pivot is the index of the minimum element where sorted order wraps.
+- **Already Sorted Edge Case:** If `arr[0] <= arr[n-1]`, array is not rotated and pivot is index `0`.
+- **Half Selection Before Search:** After finding pivot, decide which sorted half can contain target and run binary search only there.
+- **Range Discipline:** Left side must end at `pivot - 1` so each search range stays fully sorted.
+- **Quick Exit Optimization:** If `k == arr[pivot]`, return immediately without extra search.
+- **Integer sqrt via Binary Search:** Compare `mid*mid` with `x` and shrink boundaries until floor value is found.
+- **Overflow Prevention:** Use `long long` for `mid`, `s`, `e`, and `mid*mid` checks to avoid overflow.
