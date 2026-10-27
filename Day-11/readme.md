@@ -9,3 +9,4 @@ Today, I practiced working with low-level operators to understand how data is ma
 | `01_bitwise_operators.cpp` | Bitwise Operators | Practiced using AND (`&`), OR (`\|`), NOT (`~`), and XOR (`^`) on binary numbers. |
 | `02_bit_shifts.cpp` | Bit Shifts | Learned how Left Shift (`<<`) and Right Shift (`>>`) slide binary bits left or right. |
 | `03_increment_decrement.cpp` | Increment & Decrement | Practiced the differences between Pre-increment (`++i`) and Post-increment (`i++`). |
+| `04_Some_basic_questions_for_base.cpp` | Operator Behavior | Practiced short-circuit evaluation and basic operator expressions. |

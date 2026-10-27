@@ -1,6 +1,6 @@
 # C++ Revision Guide (Chronological)
 
-This revision guide is generated from your day-by-day C++ journey in this repository (`Day-03` to `Day-26`), including root and day-wise README notes plus `.cpp` practice files.  
+This revision guide is generated from your day-by-day C++ journey in this repository (`Day-03` to `Day-27`), including root and day-wise README notes plus `.cpp` practice files.  
 It is organized in learning order for quick revision, using short syntax templates (not full solutions).
 
 ---
@@ -627,7 +627,7 @@ while (mid <= high) {
 
 ---
 
-## Day 26 — Unique Occurrence Counts
+## Day 26 — Binary Search Patterns and Array Positions
 
 ### Count frequencies after sorting
 - **Headers:**
@@ -651,6 +651,39 @@ for (int i = 0; i + 1 < counts.size(); i++) {
 return true;
 ```
 - **Complexity:** `O(n log n)` due to sorting.
+
+### Binary search in a sorted array
+```cpp
+int mid = start + (end - start) / 2;
+if (arr[mid] == key) return mid;
+if (arr[mid] < key) start = mid + 1;
+else end = mid - 1;
+```
+- Binary search requires sorted input.
+- The midpoint formula avoids overflow from `start + end`.
+- **Complexity:** `O(log n)`.
+
+### First and last position of a target
+- Run binary search twice.
+- After finding the target, continue left for the first occurrence.
+- Continue right for the last occurrence.
+- Return both indexes with `pair<int, int>`.
+- **Complexity:** `O(log n)`.
+
+### Peak index in a mountain array
+```cpp
+if (arr[mid] < arr[mid + 1]) start = mid + 1;
+else end = mid;
+```
+- On the increasing slope, move right.
+- On the decreasing slope, keep `mid` as a possible peak.
+- **Complexity:** `O(log n)`.
+
+### Pivot index
+- Compare the sum before each index with the sum after it.
+- Exclude the pivot value from both sums.
+- Return the first matching index, or `-1` if none exists.
+- **Complexity of the practiced helper-function approach:** `O(n^2)`.
 
 ---
 
