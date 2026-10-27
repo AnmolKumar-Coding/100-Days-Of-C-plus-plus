@@ -7,7 +7,7 @@ Today was a huge day! I learned how to skip loop steps using `continue`, how var
 | File Name | Topic | What I Learned |
 | :--- | :--- | :--- |
 | `01_continue_keyword.cpp` | Continue Keyword | How to skip the rest of the code inside a loop step and jump straight to the next turn. |
-| `02_practise_questions.cpp` | Output Tracking | Traced tricky loop questions, nested loops, and loops with increments inside the block. |
+| `02_Practise_questions.cpp` | Output Tracking | Traced tricky loop questions, nested loops, and loops with increments inside the block. |
 | `03_scope_of_variable.cpp` | Variable Scope | How variables only live inside the block `{ }` where they are created. |
 | `04_first_leetcode_question.cpp` | LeetCode 1281 | How to break down an integer into digits to find their sum and product. |
 | `05_second_leetcode_question.cpp` | LeetCode 191 | How to count the number of `1` bits in a binary number using bitwise shifts. |
