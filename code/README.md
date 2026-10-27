@@ -654,6 +654,53 @@ return true;
 
 ---
 
+## Day 27 — Rotated Array Search and Integer Square Root
+
+### Find the pivot in a rotated sorted array
+```cpp
+if (arr[s] <= arr[e]) return s;
+
+while (s < e) {
+    int mid = s + (e - s) / 2;
+    if (arr[mid] >= arr[0]) s = mid + 1;
+    else e = mid;
+}
+return s;
+```
+- The pivot is the index of the minimum element.
+- If the array is already sorted, the pivot is `0`.
+- **Complexity:** `O(log n)`.
+
+### Search in a rotated sorted array
+1. Find the pivot index.
+2. If the target equals `arr[pivot]`, return the pivot.
+3. Search either `[pivot, n - 1]` or `[0, pivot - 1]` with binary search.
+
+```cpp
+if (arr[pivot] <= key && key <= arr[n - 1])
+    return BinarySearch(arr, key, pivot, n - 1);
+return BinarySearch(arr, key, 0, pivot - 1);
+```
+- Keep the left search range ending at `pivot - 1`.
+- **Complexity:** `O(log n)`.
+
+### Integer square root
+```cpp
+long long s = 0, e = x;
+while (s <= e) {
+    long long mid = s + (e - s) / 2;
+    if (mid * mid == x) return mid;
+    if (mid * mid < x) s = mid + 1;
+    else e = mid - 1;
+}
+return e;
+```
+- Returns the floor of `sqrt(x)`.
+- Use `long long` for `mid * mid` to prevent overflow.
+- **Complexity:** `O(log x)`.
+
+---
+
 ## Common Mistakes to Watch (from these days)
 
 - Missing `break` in `switch` when fall-through is not intended.
@@ -696,6 +743,8 @@ return true;
 | Two pointers | Day 22 / Day 24 | Day 25 pair/triplet/sort 0-1 |
 | Dutch National Flag | Day 25 | In-place 0/1/2 sorting |
 | Unique occurrences | Day 26 | Frequency-count validation |
+| Pivot search in rotated arrays | Day 27 | Rotated-array binary search |
+| Integer square root | Day 27 | Binary search with overflow safety |
 
 ---
 
