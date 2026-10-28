@@ -659,3 +659,36 @@ Tracking my daily coding consistency, lecture progress, and problem-solving jour
 - **Quick Exit Optimization:** If `k == arr[pivot]`, return immediately without extra search.
 - **Integer sqrt via Binary Search:** Compare `mid*mid` with `x` and shrink boundaries until floor value is found.
 - **Overflow Prevention:** Use `long long` for `mid`, `s`, `e`, and `mid*mid` checks to avoid overflow.
+
+---
+
+### Day 28 — Square Roots, Pairs, and Vector Operations
+
+#### 📖 Topics Learned
+
+```diff
++ Binary search with decimal precision
++ fixed and setprecision()       // Formatting square-root output
++ pair<int, int>                 // Storing two related values
++ vector iterators               // begin(), end(), rbegin(), rend()
++ push_back() and emplace_back() // Adding values to vectors
++ insert() and erase()           // Modifying vector contents
++ size(), pop_back(), swap()     // Managing vector data
++ clear() and empty()            // Removing and checking vector contents
+```
+
+#### 🎯 Achievement
+
+- Found square roots using binary search and extended the result to a requested number of decimal places.
+- Learned how to create basic pairs, nested pairs, and arrays of pairs.
+- Practiced vector initialization, copying, iteration, insertion, erasure, swapping, and clearing.
+- Used `auto` and range-based loops to make vector traversal shorter and easier to read.
+
+#### 💡 Key Concepts
+
+- **Square Root Precision:** First find the integer part with binary search, then use smaller decimal factors to improve the answer one place at a time.
+- **Pairs:** A `pair` stores two related values together. The values are accessed using `.first` and `.second`, and pairs can also be nested or stored in arrays.
+- **Vector Iterators:** `begin()` and `end()` move forward through a vector, while `rbegin()` and `rend()` move backward. The `*` operator reads the value at an iterator's position.
+- **`auto` and Range-Based Loops:** `auto` lets the compiler determine long iterator types, while range-based loops directly visit each vector value.
+- **Vector Modification:** `push_back()` and `emplace_back()` add values, `insert()` places values at a selected position, and `erase()` removes one element or an exclusive-end range.
+- **Vector Management:** `size()` counts elements, `pop_back()` removes the last element, `swap()` exchanges two vectors, `clear()` removes all elements, and `empty()` checks whether no elements remain.
