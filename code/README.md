@@ -1,6 +1,6 @@
 # C++ Revision Guide (Chronological)
 
-This revision guide is generated from your day-by-day C++ journey in this repository (`Day-03` to `Day-27`), including root and day-wise README notes plus `.cpp` practice files.  
+This revision guide is generated from your day-by-day C++ journey in this repository (`Day-03` to `Day-28`), including root and day-wise README notes plus `.cpp` practice files.
 It is organized in learning order for quick revision, using short syntax templates (not full solutions).
 
 ---
@@ -734,6 +734,84 @@ return e;
 
 ---
 
+## Day 28 — Square Roots, Pairs, and Vector Operations
+
+### Square root with decimal precision
+```cpp
+int root = integerSquareRoot(number);
+long double factor = 1;
+long double answer = root;
+
+for (int digit = 0; digit < precision; digit++) {
+    factor /= 10;
+    while ((answer + factor) * (answer + factor) < number)
+        answer += factor;
+}
+```
+- First find the integer square root with binary search.
+- Refine the result one decimal place at a time using a decreasing factor.
+- Use `fixed << setprecision(precision)` for consistent output formatting.
+- **Complexity:** `O(log n + precision * n)` for the practiced refinement approach.
+
+### Pairs
+```cpp
+pair<int, int> p = {first, second};
+cout << p.first << " " << p.second;
+
+pair<int, pair<int, int>> nested = {a, {b, c}};
+pair<int, int> pairs[] = {{1, 2}, {3, 4}};
+```
+- `pair` stores two related values and exposes them through `.first` and `.second`.
+- Pairs can be nested or stored in arrays and vectors.
+- Include `<utility>` when using `std::pair` directly.
+
+### Vector creation and insertion
+```cpp
+vector<int> values = {1, 2, 3};
+values.push_back(4);
+values.emplace_back(5);
+
+vector<pair<int, int>> coordinates;
+coordinates.emplace_back(10, 20);
+```
+- Vectors are dynamic arrays that grow as elements are added.
+- `push_back()` adds an existing value; `emplace_back()` constructs the value in place.
+- A vector can be copied with `vector<int> copy(values);`.
+
+### Vector iterators and traversal
+```cpp
+for (vector<int>::iterator it = values.begin(); it != values.end(); ++it)
+    cout << *it << " ";
+
+for (auto it = values.rbegin(); it != values.rend(); ++it)
+    cout << *it << " ";
+
+for (auto value : values)
+    cout << value << " ";
+```
+- `begin()`/`end()` traverse forward; `rbegin()`/`rend()` traverse backward.
+- `end()` and `rend()` are boundary iterators and must not be dereferenced.
+- `auto` reduces verbose iterator type declarations.
+
+### Vector insertion, erasure, and management
+```cpp
+values.insert(values.begin(), 0);
+values.insert(values.begin() + index, count, value);
+values.erase(values.begin() + index);
+values.erase(values.begin() + start, values.begin() + end);
+
+values.pop_back();
+values.swap(other);
+values.clear();
+bool isEmpty = values.empty();
+```
+- `erase(start, end)` removes the half-open range `[start, end)`.
+- `size()` returns the number of elements currently stored.
+- `insert()` and `erase()` can shift later elements and invalidate iterators.
+- **Typical complexity:** random access is `O(1)`; insertion or erasure in the middle is `O(n)`.
+
+---
+
 ## Common Mistakes to Watch (from these days)
 
 - Missing `break` in `switch` when fall-through is not intended.
@@ -743,6 +821,9 @@ return e;
 - Integer overflow in repeated multiply/reverse logic.
 - Using XOR method when problem conditions do not match.
 - Forgetting required headers (`<algorithm>`, `<vector>`, `<limits.h>`, `<iomanip>`, `<utility>`, `<cmath>/<math.h>`).
+- Dereferencing `end()` or `rend()`, because they point outside the valid element range.
+- Forgetting that vector `erase()` uses an inclusive start and exclusive end range: `[start, end)`.
+- Using an iterator after an insertion or erasure that invalidated it.
 
 ---
 
@@ -778,6 +859,11 @@ return e;
 | Unique occurrences | Day 26 | Frequency-count validation |
 | Pivot search in rotated arrays | Day 27 | Rotated-array binary search |
 | Integer square root | Day 27 | Binary search with overflow safety |
+| Decimal square-root precision | Day 28 | Refining an integer result digit by digit |
+| `pair` | Day 28 | Grouping two related values |
+| Vector iterators and `auto` | Day 28 | Traversing vectors clearly |
+| Vector insertion and erasure | Day 28 | Modifying elements and ranges |
+| Vector management functions | Day 28 | `size`, `pop_back`, `swap`, `clear`, `empty` |
 
 ---
 
