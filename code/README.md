@@ -1,6 +1,6 @@
 # C++ Revision Guide (Chronological)
 
-This revision guide is generated from your day-by-day C++ journey in this repository (`Day-03` to `Day-26`), including root and day-wise README notes plus `.cpp` practice files.  
+This revision guide is generated from your day-by-day C++ journey in this repository (`Day-03` to `Day-27`), including root and day-wise README notes plus `.cpp` practice files.  
 It is organized in learning order for quick revision, using short syntax templates (not full solutions).
 
 ---
@@ -627,7 +627,7 @@ while (mid <= high) {
 
 ---
 
-## Day 26 — Unique Occurrence Counts
+## Day 26 — Binary Search Patterns and Array Positions
 
 ### Count frequencies after sorting
 - **Headers:**
@@ -651,6 +651,86 @@ for (int i = 0; i + 1 < counts.size(); i++) {
 return true;
 ```
 - **Complexity:** `O(n log n)` due to sorting.
+
+### Binary search in a sorted array
+```cpp
+int mid = start + (end - start) / 2;
+if (arr[mid] == key) return mid;
+if (arr[mid] < key) start = mid + 1;
+else end = mid - 1;
+```
+- Binary search requires sorted input.
+- The midpoint formula avoids overflow from `start + end`.
+- **Complexity:** `O(log n)`.
+
+### First and last position of a target
+- Run binary search twice.
+- After finding the target, continue left for the first occurrence.
+- Continue right for the last occurrence.
+- Return both indexes with `pair<int, int>`.
+- **Complexity:** `O(log n)`.
+
+### Peak index in a mountain array
+```cpp
+if (arr[mid] < arr[mid + 1]) start = mid + 1;
+else end = mid;
+```
+- On the increasing slope, move right.
+- On the decreasing slope, keep `mid` as a possible peak.
+- **Complexity:** `O(log n)`.
+
+### Pivot index
+- Compare the sum before each index with the sum after it.
+- Exclude the pivot value from both sums.
+- Return the first matching index, or `-1` if none exists.
+- **Complexity of the practiced helper-function approach:** `O(n^2)`.
+
+---
+
+## Day 27 — Rotated Array Search and Integer Square Root
+
+### Find the pivot in a rotated sorted array
+```cpp
+if (arr[s] <= arr[e]) return s;
+
+while (s < e) {
+    int mid = s + (e - s) / 2;
+    if (arr[mid] >= arr[0]) s = mid + 1;
+    else e = mid;
+}
+return s;
+```
+- The pivot is the index of the minimum element.
+- If the array is already sorted, the pivot is `0`.
+- **Complexity:** `O(log n)`.
+
+### Search in a rotated sorted array
+1. Find the pivot index.
+2. If the target equals `arr[pivot]`, return the pivot.
+3. Search either `[pivot, n - 1]` or `[0, pivot - 1]` with binary search.
+
+```cpp
+if (arr[pivot] <= key && key <= arr[n - 1])
+    return BinarySearch(arr, key, pivot, n - 1);
+return BinarySearch(arr, key, 0, pivot - 1);
+```
+- Keep the left search range ending at `pivot - 1`.
+- **Complexity:** `O(log n)`.
+
+### Integer square root
+```cpp
+long long s = 0, e = x;
+while (s <= e) {
+    long long mid = s + (e - s) / 2;
+    if (mid * mid == x) return mid;
+    if (mid * mid < x) s = mid + 1;
+    else e = mid - 1;
+}
+return e;
+```
+- Returns the floor of `sqrt(x)`.
+- Use `long long` for `mid * mid` to prevent overflow.
+- **Complexity:** `O(log x)`.
 
 ---
 
@@ -696,6 +776,8 @@ return true;
 | Two pointers | Day 22 / Day 24 | Day 25 pair/triplet/sort 0-1 |
 | Dutch National Flag | Day 25 | In-place 0/1/2 sorting |
 | Unique occurrences | Day 26 | Frequency-count validation |
+| Pivot search in rotated arrays | Day 27 | Rotated-array binary search |
+| Integer square root | Day 27 | Binary search with overflow safety |
 
 ---
 

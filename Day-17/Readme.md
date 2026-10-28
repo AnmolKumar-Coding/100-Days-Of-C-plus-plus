@@ -6,7 +6,7 @@ Today's session was dedicated to building resilient code on LeetCode and HackerR
 
 | File Name | Topic / Platform | Learning Objective |
 | :--- | :--- | :--- |
-| `0101_Leetcode_Problem_231.cpp` | LeetCode 231 (Power of Two) | Implementing exponential scaling loops with active predictive overflow checks. |
+| `01_Leetcode_Problem_231.cpp` | LeetCode 231 (Power of Two) | Implementing exponential scaling loops with active predictive overflow checks. |
 | `02_Hackerank_problems_Basic_Data_Types.cpp` | HackerRank (Basic Data Types) | Managing sequential multi-type inputs and precision formatting via `<iomanip>`. |
 
 ---
